@@ -1,0 +1,50 @@
+{
+  "name": "webboot.github.io",
+  "version": "0.23.5",
+  "private": true,
+  "author": "Wizards & Witches",
+  "description": "@webboot org github page.",
+  "license": "AGPL-3.0",
+  "homepage": "https://webboot.github.io",
+  "engines": {
+    "node": ">=13.5.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "t -p",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "clean": "magic clean",
+    "serve": "magic serve --watch src",
+    "dev": "magic dev --watch src",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "calls": "calls",
+    "connect": "magic connect",
+    "publish": "magic publish"
+  },
+  "dependencies": {
+    "@magic-modules/gdpr": "0.0.13",
+    "@magic-modules/git-badges": "0.0.3",
+    "@magic-modules/light-switch": "0.0.3",
+    "@magic/core": "0.0.19"
+  },
+  "devDependencies": {
+    "@magic/format": "0.0.7",
+    "@magic/test": "0.1.30"
+  },
+  "keywords": [
+    "webboot",
+    "tofu",
+    "tosu",
+    "trust",
+    "first",
+    "use"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}

@@ -23,7 +23,7 @@ export const View = state => [
   div({ id: 'sponsors' }, [
     h2('sponsors'),
 
-    p('the following individuals and organizations have contributed to @webboot'),
+    p('the following organizations and individuals have contributed to @webboot'),
 
     ul([
       li([

@@ -11,4 +11,10 @@ export default {
   URL: 'webboot.github.io',
 
   HOIST: ['Gdpr', 'LightSwitch'],
+
+  THEME_VARS: {
+    grey: '#5a5d62',
+    red: '#de0000',
+    white: '#ffffff',
+  },
 }

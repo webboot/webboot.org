@@ -30,13 +30,12 @@ c-93 0-146 44-146 44s103 223 27 389a428 428 0 00-48 225z
 export const style = vars => ({
   svg: {
     height: '5em',
-    width: '5em',
   },
 
   '.sole': {
-    fill: vars.colors.gray[900],
+    fill: vars.grey,
   },
   '.upper': {
-    fill: vars.colors.red[600],
+    fill: vars.red,
   },
 })

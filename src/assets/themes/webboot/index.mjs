@@ -24,7 +24,15 @@ export default vars => ({
   },
 
   '.Page': {
-    padding: '0 5%',
+    '> div': {
+      display: 'inline-block',
+      padding: '0 5%',
+      width: '100%',
+
+      '&#about': {
+        backgroundColor: vars.lightgrey,
+      },
+    },
   },
 
   a: {

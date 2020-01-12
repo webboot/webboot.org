@@ -6,7 +6,7 @@ export const View = () => div({ class: 'Hero' }, [
 
 export const style = {
   position: 'relative',
-  maxWidth: '300px',
+  maxWidth: '333px',
   margin: '0 auto',
 
   '.Boot': {

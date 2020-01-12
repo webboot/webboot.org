@@ -1,9 +1,7 @@
 export const View = state => [
-  div({ id: 'about' }, [
-    Hero(),
-  ]),
+  div({ id: 'about' }, [Hero()]),
 
-  div({ id: 'packages'}, [
+  div({ id: 'packages' }, [
     h2('packages'),
 
     ul([
@@ -34,24 +32,15 @@ export const View = state => [
     p('the following organizations and individuals have contributed to @webboot'),
 
     ul([
-      li([
-        h4('BitcoinersWithoutBorders'),
-        p('Development and Evangelism'),
-      ]),
-      li([
-        h4('Metalab Vienna'),
-        p('Some of us work there and are members.'),
-      ]),
-      li([
-        h4('Parallele Polis Vienna'),
-        p('Some of us work there and are members.'),
-      ]),
+      li([h4('BitcoinersWithoutBorders'), p('Development and Evangelism')]),
+      li([h4('Metalab Vienna'), p('Some of us work there and are members.')]),
+      li([h4('Parallele Polis Vienna'), p('Some of us work there and are members.')]),
     ]),
-  ])
+  ]),
 ]
 
 //export const style = {
-  //'#about': {
-    //minHeight: '70vh',
-  //},
+//'#about': {
+//minHeight: '70vh',
+//},
 //}

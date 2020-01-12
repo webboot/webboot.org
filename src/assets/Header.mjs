@@ -32,7 +32,5 @@ export const style = vars => ({
 })
 
 export const propTypes = {
-  Header: [
-    { key: 'menu', type: 'array' },
-  ],
+  Header: [{ key: 'menu', type: 'array' }],
 }

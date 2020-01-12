@@ -27,7 +27,7 @@ z
 `.trim(),
       }),
     ]),
-  ])
+  ]),
 ]
 
 export const style = vars => ({

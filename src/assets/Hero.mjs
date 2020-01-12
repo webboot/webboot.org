@@ -1,8 +1,5 @@
-export const View = () => div({ class: 'Hero' }, [
-  Boot(),
-  h1([Link({ to: '/' }, '@webboot')]),
-  p('trust on every step'),
-])
+export const View = () =>
+  div({ class: 'Hero' }, [Boot(), h1([Link({ to: '/' }, '@webboot')]), p('trust on every step')])
 
 export const style = {
   position: 'relative',
@@ -19,8 +16,8 @@ export const style = {
     padding: '0',
     textAlign: 'right',
     position: 'absolute',
-top: '.5em',
-right: '1em',
+    top: '.5em',
+    right: '1em',
 
     a: {
       textDecoration: 'none',

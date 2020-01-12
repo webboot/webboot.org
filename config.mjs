@@ -14,7 +14,7 @@ export default {
 
   THEME_VARS: {
     grey: '#5a5d62',
-    red: '#de0000',
+    red: '#ea4144',
     white: '#ffffff',
   },
 }

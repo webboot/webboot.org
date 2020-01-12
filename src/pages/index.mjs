@@ -13,9 +13,17 @@ export const View = state => [
         p(Link({ to: 'https://webboot.github.io/core' }, 'docs')),
       ]),
       li([
-        h4(Link({ to: 'https://github.com/webboot/core' }, '@webboot/cli')),
+        h4(Link({ to: 'https://github.com/webboot/cli' }, '@webboot/cli')),
         p('command line interface exposing the webboot functionality to bash'),
         p(Link({ to: 'https://webboot.github.io/cli' }, 'docs')),
+      ]),
+      li([
+        h4(Link({ to: 'https://github.com/webboot/crypto' }, '@webboot/crypto')),
+        p([
+          'all cryptographic functionality of webboot,',
+          ' split into a separate repository to make testing and auditing easier.',
+        ]),
+        p(Link({ to: 'https://webboot.github.io/crypto' }, 'docs')),
       ]),
     ]),
   ]),

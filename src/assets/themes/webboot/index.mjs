@@ -24,8 +24,7 @@ export default vars => ({
   },
 
   '.Page': {
-    width: '90%',
-    margin: '0 5%',
+    padding: '0 5%',
   },
 
   a: {
@@ -58,5 +57,15 @@ export default vars => ({
     position: 'fixed',
     bottom: '0.5em',
     right: '0.5em',
+  },
+  '.Gdpr': {
+    left: 'auto',
+    right: '0.5em',
+
+    '.ShowHide': {
+      left: 'auto',
+      bottom: '3em',
+      right: '0.5em',
+    },
   },
 })

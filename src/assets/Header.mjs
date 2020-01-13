@@ -27,6 +27,11 @@ export const style = vars => ({
     display: 'inline-block',
     float: 'left',
     padding: '.3em .3em 0 .5em',
+    transition: `background-color ${vars.fadeDuration}`,
+
+    '.light &&': {
+      backgroundColor: vars.greyDark,
+    },
 
     svg: {
       height: '2em',

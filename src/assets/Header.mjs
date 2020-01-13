@@ -22,7 +22,7 @@ export const style = vars => ({
   },
 
   '.Boot': {
-    backgroundColor: vars.colors.white,
+    backgroundColor: vars.greyLight,
     borderRadius: '100%',
     display: 'inline-block',
     float: 'left',

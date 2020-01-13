@@ -1,5 +1,27 @@
 export const View = state => [
-  div({ id: 'about' }, [Hero()]),
+  div({ id: 'hero' }, [Hero(state)]),
+
+  div({ id: 'about' }, [
+    h2('about webboot'),
+
+    p([
+      'webboot aims to make ',
+      Link({ to: 'https://en.wikipedia.org/wiki/Trust_on_first_use' }, 'tofu - trust on first use'),
+      ' a bit less scary.',
+    ]),
+  ]),
+
+  div({ id: 'tofu' }, [
+    h2('tofu'),
+    p('TODO: add a short description of the tofu problem'),
+    Link({ to: '/tofu/' }, 'Do you want to know more?'),
+  ]),
+
+  div({ id: 'tosu' }, [
+    h2('tosu'),
+    p('TODO: add a short description of the tosu problem'),
+    Link({ to: '/tosu/' }, 'Do you want to know more?'),
+  ]),
 
   div({ id: 'packages' }, [
     h2('packages'),
@@ -26,10 +48,18 @@ export const View = state => [
     ]),
   ]),
 
-  div({ id: 'sponsors' }, [
-    h2('sponsors'),
+  div({ id: 'support' }, [
+    h2('support'),
 
-    p('the following organizations and individuals have contributed to @webboot'),
+    p([
+      'the following organizations and individuals have ',
+      Link({ to: '/support/#contribute', text: 'contributed' }),
+      ', ',
+      Link({ to: '/support/#validate', text: 'validated code' }),
+      ', ',
+      Link({ to: '/support/#donate', text: 'donated' }),
+      'money or a space to work, or otherwise helped @webboot.',
+    ]),
 
     ul([
       li([h4('BitcoinersWithoutBorders'), p('Development and Evangelism')]),

@@ -1,7 +1,5 @@
 export default vars => ({
   body: {
-    backgroundColor: vars.greyDark,
-    color: vars.greyLight,
     fontFamily: [
       '"Ubuntu Narrow"',
       'Ubuntu',
@@ -12,10 +10,13 @@ export default vars => ({
       'Helvetica',
       'sans-serif',
     ].join(', '),
-    transition: 'color 0.5s, background-color 0.5s',
   },
 
   '#Magic': {
+    backgroundColor: vars.greyDark,
+    color: vars.greyLight,
+    transition: `color ${vars.fadeDuration}, background-color ${vars.fadeDuration}`,
+
     '&.light': {
       backgroundColor: vars.colors.gray[300],
       color: vars.colors.gray[900],
@@ -38,6 +39,7 @@ export default vars => ({
 
   a: {
     color: vars.colors.gray[300],
+    transition: `color ${vars.fadeDuration}`,
 
     '&:hover': {
       color: vars.colors.gray[500],

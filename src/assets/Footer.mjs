@@ -50,12 +50,14 @@ export const style = vars => ({
     margin: 0,
   },
 
-  a: {
-    color: vars.greyLight,
-    textDecoration: 'underline',
+  '.Menus, .Credits': {
+    a: {
+      color: vars.greyLight,
+      textDecoration: 'underline',
 
-    '&:hover': {
-      color: vars.greyDark,
+      '&:hover': {
+        color: vars.greyDark,
+      },
     },
   },
 
@@ -81,6 +83,7 @@ export const style = vars => ({
       },
     },
   },
+
   '.Credits': {
     margin: '2em 0 1em',
   },

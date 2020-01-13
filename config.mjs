@@ -28,5 +28,7 @@ export default {
       laptop: 1024,
       desktop: 1600,
     },
+
+    fadeDuration: '500ms',
   },
 }

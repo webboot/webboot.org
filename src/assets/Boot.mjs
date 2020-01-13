@@ -32,7 +32,7 @@ z
 
 export const style = vars => ({
   svg: {
-    height: '5em',
+    width: '5em',
   },
 
   '.sole': {

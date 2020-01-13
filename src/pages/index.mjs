@@ -1,5 +1,5 @@
 export const View = state => [
-  div({ id: 'hero' }, [Hero(state)]),
+  Hero(state),
 
   div({ id: 'about' }, [
     h2('about webboot'),
@@ -58,7 +58,7 @@ export const View = state => [
       Link({ to: '/support/#validate', text: 'validated code' }),
       ', ',
       Link({ to: '/support/#donate', text: 'donated' }),
-      'money or a space to work, or otherwise helped @webboot.',
+      ' money, gave us a space to work, or otherwise helped @webboot.',
     ]),
 
     ul([

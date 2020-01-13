@@ -3,13 +3,24 @@ export const View = (props = {}) => {
 
   const { menu, ...state } = props
 
-  return header({ class: 'Header' }, [
-    Link({ to: state.root, class: 'Logo' }, [Boot(), span('@webboot')]),
-    menu && Menu({ state, items: menu }),
-  ])
+  return header(
+    { class: 'Header' },
+    div([
+      Link({ to: state.root, class: 'Logo' }, [Boot(), span('@webboot')]),
+      menu && Menu({ state, items: menu }),
+    ]),
+  )
 }
 
 export const style = vars => ({
+  width: '100%',
+  padding: '.5em 5% .3em',
+
+  div: {
+    maxWidth: '1000px',
+    margin: '0 auto',
+  },
+
   '.Boot': {
     backgroundColor: vars.colors.white,
     borderRadius: '100%',
@@ -22,12 +33,17 @@ export const style = vars => ({
       width: '2em',
     },
   },
+
   '.Logo': {
     span: {
       float: 'left',
-      fontSize: '1.2em',
+      fontSize: '1.5em',
       margin: '0 0 0 .2em',
     },
+  },
+
+  '.Menu': {
+    margin: '.4em 0 0',
   },
 })
 

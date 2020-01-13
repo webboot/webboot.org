@@ -1,34 +1,68 @@
-export const View = () =>
-  div({ class: 'Hero' }, [Boot(), h1([Link({ to: '/' }, '@webboot')]), p('trust on every step')])
+export const View = state =>
+  div({ id: 'hero', class: 'Hero' }, [
+    div({ class: 'Booting' }, [Boot(), h1([span('@web'), 'boot']), p('trust on every step')]),
+    Menu({
+      items: [
+        { to: '/#about', text: 'about' },
+        { to: '/#packages', text: 'packages' },
+        { to: '/#support', text: 'support' },
+      ],
+      state,
+    }),
+  ])
 
-export const style = {
+export const style = vars => ({
+  backgroundColor: vars.greyLight,
+  margin: '5vh auto',
   position: 'relative',
-  maxWidth: '333px',
-  margin: '0 auto',
+  maxWidth: 'inherit',
+
+  '.Booting': {
+    margin: '0 auto',
+    maxWidth: '290px',
+    minWidth: '270px',
+    position: 'relative',
+  },
 
   '.Boot': {
     svg: {
-      height: '10em',
+      width: '15em',
+      maxWidth: '65vw',
     },
   },
-  h1: {
-    fontSize: '2em',
-    padding: '0',
-    textAlign: 'right',
-    position: 'absolute',
-    top: '.5em',
-    right: '1em',
+
+  '.Menu': {
+    float: 'none',
+    textAlign: 'center',
 
     a: {
-      textDecoration: 'none',
+      color: vars.red,
+
+      '&:hover': {
+        color: vars.redDark,
+      },
     },
   },
-  p: {
-    fontSize: '1.2em',
-    padding: '0 25px 0 0',
-    textAlign: 'right',
+
+  h1: {
+    color: vars.grey,
+    fontSize: '2em',
+    padding: '0',
     position: 'absolute',
-    top: '3em',
-    width: '100%',
+    right: 0,
+    textAlign: 'right',
+    top: 0,
+
+    span: {
+      color: vars.red,
+    },
   },
-}
+
+  p: {
+    color: vars.grey,
+    fontSize: '1.1em',
+    position: 'absolute',
+    right: 0,
+    top: '2.5em',
+  },
+})

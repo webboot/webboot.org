@@ -1,5 +1,7 @@
 export default vars => ({
   body: {
+    backgroundColor: vars.greyDark,
+    color: vars.greyLight,
     fontFamily: [
       '"Ubuntu Narrow"',
       'Ubuntu',
@@ -10,13 +12,10 @@ export default vars => ({
       'Helvetica',
       'sans-serif',
     ].join(', '),
+    transition: 'color 0.5s, background-color 0.5s',
   },
 
   '#Magic': {
-    backgroundColor: vars.colors.gray[900],
-    color: vars.colors.gray[300],
-    transition: 'color 0.5s, background-color 0.5s',
-
     '&.light': {
       backgroundColor: vars.colors.gray[300],
       color: vars.colors.gray[900],
@@ -26,11 +25,13 @@ export default vars => ({
   '.Page': {
     '> div': {
       display: 'inline-block',
-      padding: '0 5%',
+      padding: '5%',
       width: '100%',
+      maxWidth: vars.maxWidth,
+      margin: '0 auto',
 
-      '&#about': {
-        backgroundColor: vars.lightgrey,
+      '&#hero': {
+        maxWidth: 'inherit',
       },
     },
   },
@@ -56,9 +57,8 @@ export default vars => ({
     maxWidth: 'inherit',
   },
 
-  '.Header': {
-    width: '100%',
-    padding: '0 5%',
+  '.Menu': {
+    float: 'none',
   },
 
   '.LightSwitch': {
@@ -74,6 +74,16 @@ export default vars => ({
       left: 'auto',
       bottom: '3em',
       right: '0.5em',
+    },
+  },
+
+  [`@media screen and (min-width: ${vars.widths.tablet}px)`]: {
+    '.Menu': {
+      float: 'right',
+      margin: 0,
+    },
+    '.Logo': {
+      float: 'left',
     },
   },
 })

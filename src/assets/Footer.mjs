@@ -51,11 +51,11 @@ export const style = vars => ({
   },
 
   a: {
-    color: vars.colors.gray[100],
+    color: vars.greyLight,
     textDecoration: 'underline',
 
     '&:hover': {
-      color: vars.colors.gray[300],
+      color: vars.greyDark,
     },
   },
 

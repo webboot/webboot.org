@@ -14,11 +14,12 @@ export const View = (props = {}) => {
 
 export const style = vars => ({
   width: '100%',
-  padding: '.5em 5% .3em',
+  padding: '.5em 0 .3em',
 
-  div: {
+  '> div': {
     maxWidth: '1000px',
     margin: '0 auto',
+    padding: '0 5%',
   },
 
   '.Boot': {

@@ -25,7 +25,6 @@ export default vars => ({
 
   '.Page': {
     '> div': {
-      display: 'inline-block',
       padding: '5%',
       width: '100%',
       maxWidth: vars.maxWidth,

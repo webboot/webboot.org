@@ -1,39 +1,42 @@
 export const View = state => [
   footer({ class: 'Footer' }, [
-    div({ class: 'Menus' }, [
-      div({ class: 'Child Info' }, [
-        h2('@webboot'),
-        p('trust on every step.'),
-        p('created by the @webboot dao.'),
+    div({ class: 'Container'}, [
+      div({ class: 'Menus' }, [
+        div({ class: 'Child Info' }, [
+          h2('@webboot'),
+          p('trust on every step.'),
+          p('created by the @webboot dao.'),
+        ]),
+        div({ class: 'Child' }, [
+          h2('code'),
+          Menu({
+            items: [
+              { text: 'webboot', to: 'https://github.com/webboot/root/' },
+              { text: '@webboot/core', to: 'https://github.com/webboot/core/' },
+              { text: '@webboot/cli', to: 'https://github.com/webboot/cli/' },
+              { text: '@webboot/crypto', to: 'https://github.com/webboot/crypto/' },
+              { text: 'this page', to: 'https://github.com/webboot/webboot.github.io/' },
+            ],
+            state,
+          }),
+        ]),
+        div({ class: 'Child' }, [
+          h2('social links'),
+          Menu({
+            items: [
+              { text: 'npm', to: 'https://www.npmjs.com/org/webboot' },
+              { text: 'twitter', to: 'https://twitter.com/webbootorg' },
+              { text: 'keybase', to: 'https://keybase.io/webboot' },
+            ],
+            state,
+          }),
+        ]),
       ]),
-      div({ class: 'Child' }, [
-        h2('code'),
-        Menu({
-          items: [
-            { text: 'webboot', to: 'https://github.com/webboot/root/' },
-            { text: '@webboot/core', to: 'https://github.com/webboot/core/' },
-            { text: '@webboot/cli', to: 'https://github.com/webboot/cli/' },
-            { text: '@webboot/crypto', to: 'https://github.com/webboot/crypto/' },
-            { text: 'this page', to: 'https://github.com/webboot/webboot.github.io/' },
-          ],
-          state,
-        }),
+
+      div({ class: 'Credits' }, [
+        'made with a few bits of ',
+        Link({ to: 'https://github.com/magic/core', target: '_blank', rel: 'noopener' }, 'magic'),
       ]),
-      div({ class: 'Child' }, [
-        h2('social links'),
-        Menu({
-          items: [
-            { text: 'npm', to: 'https://www.npmjs.com/org/webboot' },
-            { text: 'twitter', to: 'https://twitter.com/webbootorg' },
-            { text: 'keybase', to: 'https://keybase.io/webboot' },
-          ],
-          state,
-        }),
-      ]),
-    ]),
-    div({ class: 'Credits' }, [
-      'made with a few bits of ',
-      Link({ to: 'https://github.com/magic/core', target: '_blank', rel: 'noopener' }, 'magic'),
     ]),
   ]),
 ]
@@ -63,15 +66,20 @@ export const style = vars => ({
 
   '.Container': {
     margin: '0 auto',
-    width: '80%',
+    maxWidth: vars.maxWidth,
+    padding: '0 5%',
+    textAlign: 'left',
   },
 
   '.Menus': {
     display: 'inline-block',
     width: '100%',
+    textAlign: 'center',
   },
 
   '.Child': {
+    textAlign: 'left',
+
     '.Menu': {
       float: 'none',
       margin: 0,

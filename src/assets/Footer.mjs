@@ -9,27 +9,21 @@ export const View = state => [
         ]),
         div({ class: 'Child' }, [
           h2('code'),
-          Menu({
-            items: [
-              { text: 'webboot', to: 'https://github.com/webboot/root/' },
-              { text: '@webboot/core', to: 'https://github.com/webboot/core/' },
-              { text: '@webboot/cli', to: 'https://github.com/webboot/cli/' },
-              { text: '@webboot/crypto', to: 'https://github.com/webboot/crypto/' },
-              { text: 'this page', to: 'https://github.com/webboot/webboot.github.io/' },
-            ],
-            state,
-          }),
+          ul([
+            li(Link({ to: 'https://github.com/webboot/root/' }, 'webboot')),
+            li(Link({ to: 'https://github.com/webboot/core/' }, '@webboot/core')),
+            li(Link({ to: 'https://github.com/webboot/cli/' }, '@webboot/cli')),
+            li(Link({ to: 'https://github.com/webboot/crypto/' }, '@webboot/crypto')),
+            li(Link({ to: 'https://github.com/webboot/webboot.github.io/'  }, 'this page')),
+          ]),
         ]),
         div({ class: 'Child' }, [
           h2('social links'),
-          Menu({
-            items: [
-              { text: 'npm', to: 'https://www.npmjs.com/org/webboot' },
-              { text: 'twitter', to: 'https://twitter.com/webbootorg' },
-              { text: 'keybase', to: 'https://keybase.io/webboot' },
-            ],
-            state,
-          }),
+          ul([
+            li(Link({ to: 'https://www.npmjs.com/org/webboot' }, 'npm')),
+            li(Link({ to: 'https://twitter.com/webbootorg' }, 'twitter')),
+            li(Link({ to: 'https://keybase.io/webboot' }, 'keybase')),
+          ]),
         ]),
       ]),
 
@@ -79,11 +73,6 @@ export const style = vars => ({
 
   '.Child': {
     textAlign: 'left',
-
-    '.Menu': {
-      float: 'none',
-      margin: 0,
-    },
 
     ul: {
       li: {

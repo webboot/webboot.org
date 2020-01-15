@@ -40,7 +40,7 @@ export const style = vars => ({
   color: vars.greyDark,
   display: 'inline-block',
   margin: '5% 0 0',
-  padding: '0 5%',
+  padding: 0,
   width: '100%',
 
   h2: {
@@ -62,6 +62,7 @@ export const style = vars => ({
     margin: '0 auto',
     maxWidth: vars.maxWidth,
     textAlign: 'left',
+    padding: '0 5%',
   },
 
   '.Menus': {

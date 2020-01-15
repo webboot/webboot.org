@@ -2,17 +2,29 @@ export const View = state => [
   Hero(state),
 
   div({ id: 'about' }, [
-    h2('about webboot'),
+    h2('webboot?'),
 
     p([
       'webboot aims to make ',
       Link({ to: 'https://en.wikipedia.org/wiki/Trust_on_first_use' }, 'tofu - trust on first use'),
       ' a bit less scary.',
     ]),
+
+    p([
+      'we are working on a decentralized network of validator nodes,',
+      ' with the aim to provide a source of integrity to homepages and webapps.',
+    ]),
+
+    p([
+      'we think that this is a missing protocol,',
+      ' and that something like webboot is as integral',
+      ' for a free and secure world wide web as dns is,',
+      ' just seems that nobody thought about it deeply. thats what we are here for.',
+    ]),
   ]),
 
   div({ id: 'tofu' }, [
-    h2('tofu'),
+    h2('tofu - trust on first use'),
     p('how can we trust a homepage before we even load it?'),
 
     p('this is a central problem of the web that has not been addressed. until now.'),
@@ -24,16 +36,26 @@ export const View = state => [
     ]),
 
     p([
-      'those of us that do wake up at night, in cold sweat, and think about becoming a gardener.',
-      ' then our phone rings because something like [heartbleed](https://en.wikipedia.org/wiki/Heartbleed)',
-      ' just got published and we go to work.',
+      'and those of us that do?',
+      ' we wake up deep at night, in cold sweat, and think about becoming a gardener.',
     ]),
+
     Link({ to: '/tofu/' }, 'Do you want to know more?'),
   ]),
 
   div({ id: 'tosu' }, [
-    h2('tosu'),
-    p('TODO: add a short description of the tosu problem'),
+    h2('tosu - trust on second (and subsequent) use'),
+    p('we now talked about the tofu problem. it is the first step.'),
+
+    p('once we know how to load homepages safely the first time, we encounter a new problem.'),
+
+    p([
+      'what happens on updates?',
+      ' how can we trust the new javascript that is now being sent from the server?',
+    ]),
+
+    p('this can be solved by making updates of homepages user controllable and verify them through the webboot network.'),
+
     Link({ to: '/tosu/' }, 'Do you want to know more?'),
   ]),
 

@@ -27,6 +27,7 @@ export const style = vars => ({
   '.Boot': {
     svg: {
       width: '15em',
+      height: '12em',
       maxWidth: '65vw',
     },
   },

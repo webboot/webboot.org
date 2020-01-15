@@ -13,7 +13,21 @@ export const View = state => [
 
   div({ id: 'tofu' }, [
     h2('tofu'),
-    p('TODO: add a short description of the tofu problem'),
+    p('how can we trust a homepage before we even load it?'),
+
+    p('this is a central problem of the web that has not been addressed. until now.'),
+
+    p([
+      'homepages and webapps are used to administrate a lot of our public and private lifes,',
+      ' yet most people and many developers do not realize',
+      ' how broken and dangerous the delivery method of those applications is.',
+    ]),
+
+    p([
+      'those of us that do wake up at night, in cold sweat, and think about becoming a gardener.',
+      ' then our phone rings because something like [heartbleed](https://en.wikipedia.org/wiki/Heartbleed)',
+      ' just got published and we go to work.',
+    ]),
     Link({ to: '/tofu/' }, 'Do you want to know more?'),
   ]),
 

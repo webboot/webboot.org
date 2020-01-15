@@ -1,6 +1,6 @@
 export const View = state => [
   footer({ class: 'Footer' }, [
-    div({ class: 'Container'}, [
+    div({ class: 'Container' }, [
       div({ class: 'Menus' }, [
         div({ class: 'Child Info' }, [
           h2('@webboot'),
@@ -14,7 +14,7 @@ export const View = state => [
             li(Link({ to: 'https://github.com/webboot/core/' }, '@webboot/core')),
             li(Link({ to: 'https://github.com/webboot/cli/' }, '@webboot/cli')),
             li(Link({ to: 'https://github.com/webboot/crypto/' }, '@webboot/crypto')),
-            li(Link({ to: 'https://github.com/webboot/webboot.github.io/'  }, 'this page')),
+            li(Link({ to: 'https://github.com/webboot/webboot.github.io/' }, 'this page')),
           ]),
         ]),
         div({ class: 'Child' }, [

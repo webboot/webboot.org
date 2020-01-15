@@ -8,7 +8,8 @@ export default {
   THEME: 'webboot',
 
   WEB_ROOT: '/',
-  URL: 'webboot.github.io',
+  URL: 'webboot.org',
+  CNAME: 'webboot.org',
 
   HOIST: ['LightSwitch', 'Gdpr'],
 

@@ -61,7 +61,6 @@ export const style = vars => ({
   '.Container': {
     margin: '0 auto',
     maxWidth: vars.maxWidth,
-    padding: '0 5%',
     textAlign: 'left',
   },
 

@@ -34,6 +34,7 @@ export const style = vars => ({
   '.Menu': {
     float: 'none',
     textAlign: 'center',
+    margin: '3em 0 0',
 
     a: {
       color: vars.red,

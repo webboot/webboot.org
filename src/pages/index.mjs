@@ -31,7 +31,7 @@ export const View = state => [
 
     p([
       'homepages and webapps are used to administrate a lot of our public and private lifes,',
-      ' yet most people and many developers do not realize',
+      ' yet most people (and many developers) do not realize,',
       ' how broken and dangerous the delivery method of those applications is.',
     ]),
 
@@ -54,7 +54,16 @@ export const View = state => [
       ' how can we trust the new javascript that is now being sent from the server?',
     ]),
 
-    p('this can be solved by making updates of homepages user controllable and verify them through the webboot network.'),
+    p([
+      'this can be solved by making updates of homepages user controllable',
+      ' and by providing a "second source of truth" using the webboot network.',
+    ]),
+
+    p([
+      'to make sure your users will not be stuck on broken versions of your webproperties.',
+      ' the webboot network will also allow deprecation of versions',
+      ' as well as urgent security fixes.',
+    ]),
 
     Link({ to: '/tosu/' }, 'Do you want to know more?'),
   ]),
@@ -98,15 +107,18 @@ export const View = state => [
     ]),
 
     ul([
-      li([h4('BitcoinersWithoutBorders'), p('Development and Evangelism')]),
-      li([h4('Metalab Vienna'), p('Some of us work there and are members.')]),
-      li([h4('Parallele Polis Vienna'), p('Some of us work there and are members.')]),
+      li([
+        h4(Link({ to: 'https://bwb.is' }, 'BitcoinersWithoutBorders')),
+        p('development and evangelism'),
+      ]),
+      li([
+        h4(Link({ to: 'https://metalab.at' }, 'Metalab Vienna')),
+        p('some of us work there and are members.'),
+      ]),
+      li([
+        h4(Link({ to: 'https://parallele.at' }, 'Parallele Polis Vienna')),
+        p('some of us work there and are members.'),
+      ]),
     ]),
   ]),
 ]
-
-//export const style = {
-//'#about': {
-//minHeight: '70vh',
-//},
-//}

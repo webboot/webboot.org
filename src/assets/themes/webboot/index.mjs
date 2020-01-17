@@ -10,6 +10,8 @@ export default vars => ({
       'Helvetica',
       'sans-serif',
     ].join(', '),
+
+    lineHeight: '2',
   },
 
   '#Magic': {

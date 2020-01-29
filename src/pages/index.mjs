@@ -96,65 +96,65 @@ export const View = state => [
     Link({ to: '/tosu/' }, 'Do you want to know more?'),
   ]),
 
-  div({ id: 'pricing' }, [
-    h2('pricing'),
+  // div({ id: 'pricing' }, [
+  //   h2('pricing'),
 
-    p('@webboot will be a non-profit located in europe soon.'),
+  //   p('@webboot will be a non-profit located in europe soon.'),
 
-    p([
-      'the actual jurisdiction is not yet determined, ',
-      'switzerland, estonia and austria are the three choices left.',
-    ]),
+  //   p([
+  //     'the actual jurisdiction is not yet determined, ',
+  //     'switzerland, estonia and austria are the three choices left.',
+  //   ]),
 
-    p([
-      'regardless of jurisdiction, ',
-      '@webboot will always be as transparent as possible and disclose ',
-      ' both costs and income on a regular basis. (likely in near-realtime).',
-    ]),
+  //   p([
+  //     'regardless of jurisdiction, ',
+  //     '@webboot will always be as transparent as possible and disclose ',
+  //     ' both costs and income on a regular basis. (likely in near-realtime).',
+  //   ]),
 
-    ul({ class: 'tiers' }, [
-      li([
-        h3('open source'),
-        h5('free.'),
-        p('@webboot is free (as in coffee) for open source projects.'),
-        p([
-          'open source means that all source code bundling',
-          ' the html, css and javascript for the page',
-          ' is hosted in a publicly accessible git repository.',
-          ' if your page is dynamically generated,',
-          ' this includes ALL server code that is touched when generating the files.',
-        ]),
-        p([
-          'rule of thumb: if your homepage could use ',
-          Link({ to: 'https://www.gnu.org/licenses/agpl-3.0.html', text: 'agpl 3.0' }),
-          ' licensed libraries without changes,',
-          ' you can also use the webboot free tier.',
-        ]),
-      ]),
+  //   ul({ class: 'tiers' }, [
+  //     li([
+  //       h3('open source'),
+  //       h5('free.'),
+  //       p('@webboot is free (as in coffee) for open source projects.'),
+  //       p([
+  //         'open source means that all source code bundling',
+  //         ' the html, css and javascript for the page',
+  //         ' is hosted in a publicly accessible git repository.',
+  //         ' if your page is dynamically generated,',
+  //         ' this includes ALL server code that is touched when generating the files.',
+  //       ]),
+  //       p([
+  //         'rule of thumb: if your homepage could use ',
+  //         Link({ to: 'https://www.gnu.org/licenses/agpl-3.0.html', text: 'agpl 3.0' }),
+  //         ' licensed libraries without changes,',
+  //         ' you can also use the webboot free tier.',
+  //       ]),
+  //     ]),
 
-      li({ class: 'closed source' }, [
-        h3('closed source - individual'),
-        h5('mandatory donation.'),
-        p([
-          'we think that @webboot is worth as much as the domain and/or hosting of your homepage costs,',
-          ' and we would prefer not to enforce any minimal amounts.',
-          ' since payments are still encumbered with lots of labour, ',
-          ' we unfortunately can not accept any donations with a value below 5 european currency units,',
-          ' but we are happy to count that as a yearly membership.',
-        ]),
-      ]),
+  //     li({ class: 'closed source' }, [
+  //       h3('closed source - individual'),
+  //       h5('mandatory donation.'),
+  //       p([
+  //         'we think that @webboot is worth as much as the domain and/or hosting of your homepage costs,',
+  //         ' and we would prefer not to enforce any minimal amounts.',
+  //         ' since payments are still encumbered with lots of labour, ',
+  //         ' we unfortunately can not accept any donations with a value below 5 european currency units,',
+  //         ' but we are happy to count that as a yearly membership.',
+  //       ]),
+  //     ]),
 
-      li({ class: 'enterprise' }, [
-        h3('enterprise'),
-        h5('starting at 100 € yearly, 10 € monthly'),
-        p([
-          'companies with a yearly revenue above 100.000 € and/or a closed source homepage,',
-          ' please contact our team.',
-        ]),
-        Link({ to: 'mailto:team@webboot.org' }, 'team@webboot.org'),
-      ]),
-    ]),
-  ]),
+  //     li({ class: 'enterprise' }, [
+  //       h3('enterprise'),
+  //       h5('starting at 100 € yearly, 10 € monthly'),
+  //       p([
+  //         'companies with a yearly revenue above 100.000 € and/or a closed source homepage,',
+  //         ' please contact our team.',
+  //       ]),
+  //       Link({ to: 'mailto:team@webboot.org' }, 'team@webboot.org'),
+  //     ]),
+  //   ]),
+  // ]),
 
   div({ id: 'support' }, [
     h2('support'),

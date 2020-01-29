@@ -73,6 +73,7 @@ export const style = vars => ({
       margin: '0 auto',
     },
   },
+
   '@media (orientation: landscape)': {
     '.focused': {
       img: {

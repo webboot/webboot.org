@@ -56,9 +56,9 @@ export const View = () =>
       ' will notify the user about updates and security related deprecations,',
       ' but still leave the user in as much control as possible.',
       ' if there is full trust,',
-      ' all updates for pages can also be accepted automatically'
-      ' and on a per-page basis,'
+      ' all updates for pages can also be accepted automatically',
+      ' and on a per-page basis,',
       ' they will then be checked by webboot in the background, ',
-      ' not disrupting the workflows at all, until it needs to.'
+      ' not disrupting the workflows at all, until it needs to.',
     ]),
   ])

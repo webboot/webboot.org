@@ -1,10 +1,13 @@
 export const View = state =>
   div({ id: 'hero', class: 'Hero' }, [
     div({ class: 'Booting' }, [Boot(), h1([span('@web'), 'boot']), p('trust on every step')]),
+    p('automagically verify the integrity of homepages,'),
+    p('before you load them.'),
+
     Menu({
       items: [
         { to: '/#about', text: 'about' },
-        { to: '/#packages', text: 'packages' },
+        { to: '/#getting-started', text: 'getting started' },
         { to: '/#support', text: 'support' },
       ],
       state,
@@ -22,6 +25,12 @@ export const style = vars => ({
     maxWidth: '290px',
     minWidth: '270px',
     position: 'relative',
+
+    p: {
+      position: 'absolute',
+      right: 0,
+      top: '2.5em',
+    },
   },
 
   '.Boot': {
@@ -63,8 +72,6 @@ export const style = vars => ({
   p: {
     color: vars.grey,
     fontSize: '1.1em',
-    position: 'absolute',
-    right: 0,
-    top: '2.5em',
+    textAlign: 'center',
   },
 })

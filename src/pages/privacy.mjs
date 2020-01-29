@@ -21,39 +21,44 @@ export const View = () =>
       li('signing public gpg key'),
       li('git provider (gitlab, github, ...)'),
       li('domain'),
-      li('git org'),
-      li('repository'),
+      li('git organization/account'),
+      li('git repository'),
       li('a list of files this homepage is expected to serve and their hashes.'),
-      li('a comment by the publisher, informing about the changes.'),
+      li('a comment by the publisher, informing about the changes, optional.'),
     ]),
 
     p([
       'this is all the data we save, there is no hidden database,',
-      ' everything we collect is also public by default because it is needed.',
+      ' everything we collect is also public by default.',
     ]),
 
     p([
-      'all authentication is done locally using the local gpg installation,',
+      'all authentication is done locally using your local gpg installation,',
+      ' or the pgp support of your browser.',
       ' no login to our servers is possible or necessary.',
       ' we will run tor proxies to allow anonymous publishing.',
     ]),
 
     h2("Dont's"),
 
-    p('we will never, with or without consent,'),
-    ol([
-      li('track user activity on our servers.'),
-      li('sell information about our users.'),
-      li(['pass on any information about our users on to ', b('any'), ' third parties.']),
+    p([
+      'we will never, under no circumstances,',
+      ' share, and/or sell information about our users to ',
+      b('any'),
+      ' third parties.',
     ]),
 
     h3('canary:'),
-    p('if this notice disappears, it means that one of the rules above has been broken.'),
+    p([
+      'we have not shared any data about our users with anyone.',
+      ' if this canary notice ever disappears from this page,',
+      ' it means that the rule above has been broken by force.',
+    ]),
 
     h3('local data'),
     p('personal data we access on your machine and do not send anywhere, ever:'),
 
-    ul([
+    ol([
       li('your git config user.email (never uploaded)'),
       li('your public ssh key associated with that email.'),
       li('your gpg keys published on github or gitlab.'),

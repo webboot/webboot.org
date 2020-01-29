@@ -2,24 +2,15 @@ export const View = () =>
   ul({ class: 'SponsorList' }, [
     li([
       Img({ src: '/sponsor/bwb.png' }),
-      div([
-        h4(Link({ to: 'https://bwb.is' }, 'bwb')),
-        p('evangelism'),
-      ]),
+      div([h4(Link({ to: 'https://bwb.is' }, 'bwb')), p('evangelism')]),
     ]),
     li([
       Img({ src: '/sponsor/metalab.png' }),
-      div([
-        h4(Link({ to: 'https://metalab.at' }, 'metalab')),
-        p('inspiration'),
-      ]),
+      div([h4(Link({ to: 'https://metalab.at' }, 'metalab')), p('inspiration')]),
     ]),
     li([
       Img({ src: '/sponsor/parallele.png' }),
-      div([
-        h4(Link({ to: 'https://parallele.at' }, 'parallele polis')),
-        p('workspace'),
-      ]),
+      div([h4(Link({ to: 'https://parallele.at' }, 'parallele polis')), p('workspace')]),
     ]),
   ])
 

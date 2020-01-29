@@ -6,6 +6,7 @@ export const View = state => [
           h2('@webboot'),
           p('trust on every step.'),
           p('created by the @webboot dao.'),
+          Link({ to: '/privacy/', text: 'privacy notice' }),
         ]),
         div({ class: 'Child' }, [
           h2('code'),

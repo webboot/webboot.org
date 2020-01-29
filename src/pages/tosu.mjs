@@ -1,8 +1,18 @@
-export const View = () =>
+export const View = state =>
   div([
     h1('tosu - trust on second (and subsequent) use'),
-    p('we made that up. but being written on the internet makes it a thing now.'),
-    p('there also might be a wikipedia page in the near future.'),
+
+    Float({
+      ...state,
+      img: '/comics/sebiwi-trust.jpg',
+      caption: Link({ to: 'https://sebiwi.github.io/', text: 'comic by sebiwi' }),
+    }),
+
+    p('tosu. we made that up. but being written somewhere on the internet makes it a thing now.'),
+    p([
+      'there also might be a wikipedia page in the near future,',
+      ' and once there is, we will link it here.',
+    ]),
 
     p([
       'lets assume we solved the ',

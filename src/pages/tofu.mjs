@@ -187,4 +187,12 @@ export const View = state =>
     ]),
 
     p('TODO: add information about client side functionality, how the cryptography works etc.'),
+
+    p([
+      'wow, you made it. this was a lot of information.',
+      ' are you insatiable? there is more ahead,',
+      ' ready to read about the ',
+      Link({ to: '/tosu/', text: 'tosu' }),
+      ' problem next?',
+    ]),
   ])

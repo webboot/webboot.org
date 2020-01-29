@@ -3,7 +3,7 @@ export const state = {
   description: 'solving the tofu problem, one boot at the time.',
   menu: [
     { to: '/#about', text: 'about' },
-    { to: '/#getting-started', text: 'getting started' },
+    { to: '/usage/', text: 'usage' },
     { to: '/tofu/', text: 'tofu' },
     { to: '/tosu/', text: 'tosu' },
   ],

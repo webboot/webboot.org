@@ -33,10 +33,14 @@ export const View = () =>
     ]),
 
     p([
-      'all authentication is done locally using your local gpg installation,',
-      ' or the pgp support of your browser.',
+      'all authentication is done locally using either your local gnupg installation,',
+      ' or the cryptography libraries of your browser.',
       ' no login to our servers is possible or necessary.',
+    ]),
+
+    p([
       ' we will run tor proxies to allow anonymous publishing.',
+      ' once they are running, their onion addresses will be published here.',
     ]),
 
     h2("Dont's"),

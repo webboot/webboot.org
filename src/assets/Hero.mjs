@@ -22,7 +22,7 @@ export const style = vars => ({
 
   '.Booting': {
     margin: '0 auto',
-    maxWidth: '290px',
+    maxWidth: '333px',
     minWidth: '270px',
     position: 'relative',
 

@@ -7,7 +7,7 @@ export const View = state =>
     Menu({
       items: [
         { to: '/#about', text: 'about' },
-        { to: '/#getting-started', text: 'getting started' },
+        // { to: '/#getting-started', text: 'getting started' },
         { to: '/#support', text: 'support' },
       ],
       state,

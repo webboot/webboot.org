@@ -20,8 +20,8 @@ export const View = state => [
     ]),
 
     p([
-      'we are working on a decentralized network of validator nodes,',
-      ' with the aim to provide a source of integrity to homepages and webapps.',
+      'we (and you?) run a network of validator nodes,',
+      ' providing a source of integrity to homepages and webapps.',
     ]),
 
     p([
@@ -29,7 +29,6 @@ export const View = state => [
       ' and that something like webboot is as integral',
       ' for a free and secure world wide web as dns is,',
       ' just seems that nobody thought about it before.',
-      ' thats what we are here for.',
     ]),
   ]),
 

@@ -5,7 +5,7 @@ export default {
     BRANCH: 'master',
   },
   PUBLIC: 'docs',
-  THEME: 'webboot',
+  THEME: '@webboot/magic-theme',
 
   WEB_ROOT: '/',
   URL: 'webboot.org',

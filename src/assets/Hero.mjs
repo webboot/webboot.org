@@ -1,6 +1,6 @@
 export const View = state =>
   div({ id: 'hero', class: 'Hero' }, [
-    div({ class: 'Booting' }, [Boot(), h1([span('@web'), 'boot']), p('trust on every step')]),
+    Booting(),
     p('automagically verify the integrity of homepages,'),
     p('before you load them.'),
 
@@ -19,27 +19,7 @@ export const style = vars => ({
   margin: '5vh auto',
   position: 'relative',
   maxWidth: 'inherit',
-
-  '.Booting': {
-    margin: '0 auto',
-    maxWidth: '333px',
-    minWidth: '270px',
-    position: 'relative',
-
-    p: {
-      position: 'absolute',
-      right: 0,
-      top: '2.5em',
-    },
-  },
-
-  '.Boot': {
-    svg: {
-      width: '15em',
-      height: '12em',
-      maxWidth: '65vw',
-    },
-  },
+  width: '100%',
 
   '.Menu': {
     float: 'none',
@@ -52,20 +32,6 @@ export const style = vars => ({
       '&:hover': {
         color: vars.redDark,
       },
-    },
-  },
-
-  h1: {
-    color: vars.grey,
-    fontSize: '2em',
-    padding: '0',
-    position: 'absolute',
-    right: 0,
-    textAlign: 'right',
-    top: 0,
-
-    span: {
-      color: vars.red,
     },
   },
 

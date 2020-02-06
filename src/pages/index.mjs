@@ -160,12 +160,12 @@ export const View = state => [
 
     p([
       'the following organizations and individuals have ',
-      Link({ to: '/support/#contribute', text: 'contributed' }),
+      Link({ to: '/support/#contribute', text: 'contributed code' }),
       ', ',
-      Link({ to: '/support/#validate', text: 'validated code' }),
+      Link({ to: '/support/#suggestions', text: 'shared ideas' }),
       ', ',
       Link({ to: '/support/#donate', text: 'donated' }),
-      ' money, given us a space to work, or otherwise helped @webboot.',
+      ', given us a space to work, or otherwise helped @webboot.',
     ]),
 
     SponsorList(state),

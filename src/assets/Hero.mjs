@@ -15,7 +15,7 @@ export const View = state =>
   ])
 
 export const style = vars => ({
-  backgroundColor: vars.greyLight,
+  backgroundColor: vars.darkText,
   margin: '5vh auto',
   position: 'relative',
   maxWidth: 'inherit',

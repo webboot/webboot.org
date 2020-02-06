@@ -18,11 +18,11 @@ export const View = () =>
 
     ol([
       li('signing git username'),
-      li('signing public gpg key'),
+      li('signing public gpg key + metadata (name and email attached to that key. we never verify or process this information.)'),
       li('git provider (gitlab, github, ...)'),
       li('domain'),
       li('git organization/account'),
-      li('git repository'),
+      li('git repository (for open source)'),
       li('a list of files this homepage is expected to serve and their hashes.'),
       li('a comment by the publisher, informing about the changes, optional.'),
     ]),
@@ -54,9 +54,9 @@ export const View = () =>
 
     h3('canary:'),
     p([
-      'we have not shared any data about our users with anyone.',
-      ' if this canary notice ever disappears from this page,',
-      ' it means that the rule above has been broken by force.',
+      'as long as ',
+      Link({ to: '/canary/', text: 'our canary link works'}),
+      ' we have not shared any data about our users with anyone.',
     ]),
 
     h3('local data'),

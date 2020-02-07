@@ -23,7 +23,7 @@ export const style = vars => ({
   },
 
   '.Boot': {
-    backgroundColor: vars.greyLight,
+    backgroundColor: vars.darkText,
     borderRadius: '100%',
     display: 'inline-block',
     float: 'left',
@@ -31,7 +31,7 @@ export const style = vars => ({
     transition: `background-color ${vars.fadeDuration}`,
 
     '.light &&': {
-      backgroundColor: vars.greyDark,
+      backgroundColor: vars.lightText,
     },
 
     svg: {

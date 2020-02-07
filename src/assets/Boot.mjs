@@ -34,14 +34,7 @@ z
 
 export const style = vars => ({
   svg: {
-    width: '5em',
     height: '4em',
-  },
-
-  '.sole': {
-    fill: vars.grey,
-  },
-  '.upper': {
-    fill: vars.red,
+    width: '5em',
   },
 })

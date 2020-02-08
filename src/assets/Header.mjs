@@ -6,19 +6,22 @@ export const View = (props = {}) => {
   return header(
     { class: 'Header' },
     div([
-      Link({ to: state.root, class: 'Logo' }, [Boot(), span('@webboot')]),
+      Link({ to: state.root, class: 'Logo' }, [
+        Boot(),
+        div({ class: 'branding' }, [span('@web'), 'boot']),
+      ]),
       menu && Menu({ state, items: menu }),
     ]),
   )
 }
 
 export const style = vars => ({
+  padding: '.5em 0 0',
   width: '100%',
-  padding: '.5em 0 .3em',
 
   '> div': {
-    maxWidth: '1000px',
     margin: '0 auto',
+    maxWidth: '1000px',
     padding: '0 5%',
   },
 
@@ -27,29 +30,31 @@ export const style = vars => ({
     borderRadius: '100%',
     display: 'inline-block',
     float: 'left',
+    height: '2.4em',
     padding: '.3em .3em 0 .5em',
     transition: `background-color ${vars.fadeDuration}`,
 
     '.light &&': {
       backgroundColor: vars.lightText,
     },
-
-    svg: {
-      height: '2em',
-      width: '2em',
-    },
   },
 
-  '.Logo': {
+  '.branding': {
+    float: 'left',
+    fontSize: '1.5em',
+    lineHeight: '1',
+    margin: '0.2em 0 0 0.2em',
+
     span: {
-      float: 'left',
-      fontSize: '1.5em',
-      margin: '0 0 0 .2em',
+      color: vars.red,
+      fontSize: '1em',
+      margin: '0',
     },
   },
 
   '.Menu': {
-    margin: '.4em 0 0',
+    lineHeight: 1,
+    margin: '0.7em 0 0',
   },
 })
 

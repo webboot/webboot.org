@@ -1,6 +1,6 @@
 export const View = () => [
   div({ class: 'Boot' }, [
-    svg({ viewBox: '0 0 640 500', height: 25, width: 32 }, [
+    svg({ viewBox: '0 0 640 500', height: '1em', width: '1em' }, [
       path({
         class: 'upper',
         d: `
@@ -34,7 +34,7 @@ z
 
 export const style = vars => ({
   svg: {
-    height: '4em',
-    width: '5em',
+    height: '1.7em',
+    width: '1.7em',
   },
 })

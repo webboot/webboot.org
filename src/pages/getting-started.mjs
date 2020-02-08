@@ -59,9 +59,16 @@ export const View = state =>
     ]),
 
     p([
-      'additionally, we are exploring using some smart contract based solution to decentralize both',
+      'we are exploring smart contract based solution to decentralize both',
       ' the hash verification as well as the storage of the database.',
-      ' this will add an additional layer providing both data persistance and integrity guarantees.',
+      ' this will add an additional layer providing',
+      ' data persistance, integrity guarantees and network stability.',
+    ]),
+    p([
+      'once the smart contracts are in place, the ',
+      Link({ to: 'https://en.wikipedia.org/wiki/Bus_factor', text: 'hit by a bus problem' }),
+      ' will not be part of the equation anymore,',
+      ' making our team irrelevant to the wellbeing of the network.',
     ]),
 
     h3(['gui', i(' - sometime in the future. promise.')]),

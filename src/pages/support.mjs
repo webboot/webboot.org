@@ -23,17 +23,17 @@ export const View = () => [
   ]),
 
   // div({ id: 'contribute' }, [
-    // h2('validate code'),
-    // p([
-      // 'you are a person who knows some code, but you do not really want to work?',
-      // ' head over to our ',
-      // Link({ to: 'https://github.com/webboot/' }, 'github repositories'),
-      // ' and read through the code, it\'s procrastination.',
-    // ]),
-    // p([
-      // 'We will implement login/registration and social networking features ',
-      // 'for validation over the next few months.',
-    // ]),
+  // h2('validate code'),
+  // p([
+  // 'you are a person who knows some code, but you do not really want to work?',
+  // ' head over to our ',
+  // Link({ to: 'https://github.com/webboot/' }, 'github repositories'),
+  // ' and read through the code, it\'s procrastination.',
+  // ]),
+  // p([
+  // 'We will implement login/registration and social networking features ',
+  // 'for validation over the next few months.',
+  // ]),
   // ]),
 
   div({ id: 'donate' }, [

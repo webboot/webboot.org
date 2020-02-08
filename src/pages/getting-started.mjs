@@ -20,9 +20,9 @@ export const View = state =>
 
     p([
       'the webboot browser extension for both firefox and chrome',
-      ' is uploaded to the respective app stores.',
-      ' to install them, just click the icons below.',
+      ' has been uploaded to the respective app stores.',
     ]),
+    p('to install them, just click the icons below.'),
     p('TODO: add links once they exist.'),
 
     h3('app widget / embeds'),
@@ -41,7 +41,7 @@ export const View = state =>
         h4([Link({ to: 'https://www.gatsbyjs.org/', text: 'gatsby' }), i(' - coming soon')]),
         p([
           'gatsby is a free and open source framework based on react',
-          ' that helps developers build blazing fast websites and apps.',
+          ' and helps developers build blazing fast websites and apps.',
         ]),
       ]),
     ]),
@@ -58,12 +58,18 @@ export const View = state =>
       ' making it very hard for any attacker to take over the system.',
     ]),
 
-    h3(['web ui', i(' - sometime in the future. promise.')]),
+    p([
+      'additionally, we are exploring using some smart contract based solution to decentralize both',
+      ' the hash verification as well as the storage of the database.',
+      ' this will add an additional layer providing both data persistance and integrity guarantees.',
+    ]),
+
+    h3(['gui', i(' - sometime in the future. promise.')]),
 
     p('first, install the cli:'),
     Pre('npm install -g webboot'),
 
-    p('then, run the web ui:'),
+    p('then, run the gui:'),
     Pre('webboot ui'),
     p('go to the url the cli tells you (probably http://localhost:5235) and start adding pages.'),
 
@@ -71,21 +77,29 @@ export const View = state =>
     ul([
       li([
         h4(Link({ to: 'https://github.com/webboot/core' }, '@webboot/core')),
-        p('the core functionality of @webboot. Used both in clients and on the server.'),
+        p('the core library functionality of @webboot. used both in clients and on the server.'),
         p(Link({ to: 'https://webboot.github.io/core' }, 'docs')),
       ]),
+
       li([
         h4(Link({ to: 'https://github.com/webboot/cli' }, '@webboot/cli')),
-        p('command line interface exposing the webboot functionality to bash'),
+        p('command line interface exposing the @webboot functionality to bash'),
         p(Link({ to: 'https://webboot.github.io/cli' }, 'docs')),
       ]),
+
       li([
         h4(Link({ to: 'https://github.com/webboot/crypto' }, '@webboot/crypto')),
         p([
-          'all cryptographic functionality of webboot,',
+          'all cryptographic functionality of @webboot,',
           ' split into a separate repository to make testing and auditing easier.',
         ]),
         p(Link({ to: 'https://webboot.github.io/crypto' }, 'docs')),
+      ]),
+
+      li([
+        h4(Link({ to: 'https://github.com/webboot/keys' }, '@webboot/keys')),
+        p('the @webboot pgp public key and fingerprint.'),
+        p(Link({ to: 'https://webboot.github.io/keys' }, 'keys')),
       ]),
     ]),
   ])

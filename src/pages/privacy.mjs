@@ -18,7 +18,9 @@ export const View = () =>
 
     ol([
       li('signing git username'),
-      li('signing public gpg key + metadata (name and email attached to that key. we never verify or process this information.)'),
+      li(
+        'signing public gpg key + metadata (name and email attached to that key. we never verify or process this information.)',
+      ),
       li('git provider (gitlab, github, ...)'),
       li('domain'),
       li('git organization/account'),
@@ -55,7 +57,7 @@ export const View = () =>
     h3('canary:'),
     p([
       'as long as ',
-      Link({ to: '/canary/', text: 'our canary link works'}),
+      Link({ to: '/canary/', text: 'our canary link works' }),
       ' we have not shared any data about our users with anyone.',
     ]),
 

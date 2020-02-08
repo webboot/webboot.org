@@ -42,6 +42,5 @@ export const style = {
       width: '33%',
       float: 'left',
     },
-
   },
 }

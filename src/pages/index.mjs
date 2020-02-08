@@ -171,9 +171,5 @@ export const View = state => [
     SponsorList(state),
   ]),
 
-  div({ id: 'team'}, [
-    h2('team'),
-
-    Team(state),
-  ]),
+  div({ id: 'team' }, [h2('team'), Team(state)]),
 ]

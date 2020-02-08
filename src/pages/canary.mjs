@@ -1,3 +1,7 @@
+export const state = {
+  title: '@webboot - warrant canary',
+}
+
 export const View = state =>
   div([
     h3('canary notice:'),

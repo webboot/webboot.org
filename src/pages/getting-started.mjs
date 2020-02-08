@@ -1,3 +1,7 @@
+export const state = {
+  title: '@webboot - getting started',
+}
+
 export const View = state =>
   div([
     h2('getting started'),

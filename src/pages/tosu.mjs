@@ -1,3 +1,7 @@
+export const state = {
+  title: '@webboot - tosu',
+}
+
 export const View = state =>
   div([
     h1('tosu - trust on second (and subsequent) use'),

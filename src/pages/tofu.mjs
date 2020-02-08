@@ -1,3 +1,7 @@
+export const state = {
+  title: '@webboot - tofu',
+}
+
 export const View = state =>
   div([
     h1('tofu - trust on first use'),

@@ -1,3 +1,7 @@
+export const state = {
+  title: '@webboot - support',
+}
+
 export const View = () => [
   div({ id: 'overview' }, [
     h1('supporting @webboot'),

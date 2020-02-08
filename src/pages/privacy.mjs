@@ -1,3 +1,7 @@
+export const state = {
+  title: '@webboot - privacy policy',
+}
+
 export const View = () =>
   div([
     h2('privacy policy'),

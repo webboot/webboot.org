@@ -6,11 +6,11 @@ export const View = () =>
     ]),
     li([
       Img({ src: '/team/michael.jpg' }),
-      div([h4(Link({ to: 'https://keybase.io/exiledsurfer/' }, 'michael')), p('evangelism')]),
+      div([h4(Link({ to: 'https://keybase.io/exiledsurfer/' }, 'michael')), p('communications')]),
     ]),
     li([
       Img({ src: '/team/mark.jpg' }),
-      div([h4(Link({ to: 'https://keybase.io/easye/' }, 'mark')), p('advise / audit')]),
+      div([h4(Link({ to: 'https://keybase.io/easye/' }, 'mark')), p('audit')]),
     ]),
   ])
 

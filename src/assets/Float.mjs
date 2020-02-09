@@ -1,5 +1,5 @@
 export const View = (p = {}, children) => {
-  const { caption, float, img, right = false } = p
+  const { caption, float, img, right = false, title } = p
 
   const props = {
     class: {
@@ -7,6 +7,7 @@ export const View = (p = {}, children) => {
       right,
     },
     onclick: [actions.float.toggle, img],
+    title,
   }
 
   return [

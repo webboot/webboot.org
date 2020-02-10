@@ -35,7 +35,7 @@ export const View = state =>
     p('see below for available integrations:'),
     ul([
       li([
-        h4([Link({ to: 'https://magic.github.io', text: '@magic' }), i(' - release 22. 2. 2020')]),
+        h4([Link({ to: 'https://magic.github.io', text: '@magic' }), i(' - release: 22. 2. 2020')]),
         p([
           '@magic is a static page generator that generates about 15kb of html + css + js boilerplate.',
         ]),
@@ -62,6 +62,7 @@ export const View = state =>
       ' making it very hard for any attacker to take over the system.',
     ]),
 
+    h3(['smart contracts', i(' - release: summer 2020')]),
     p([
       'we are exploring smart contract based solution to decentralize both',
       ' the hash verification as well as the storage of the database.',
@@ -75,7 +76,7 @@ export const View = state =>
       ' making our team irrelevant to the wellbeing of the network.',
     ]),
 
-    h3(['gui', i(' - sometime in the future. promise.')]),
+    h3(['gui', i(' - mid/late 2020.')]),
 
     p('first, install the cli:'),
     Pre('npm install -g webboot'),

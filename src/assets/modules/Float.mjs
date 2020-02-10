@@ -1,22 +1,21 @@
 export const View = (p = {}, children) => {
   const { caption, float, img, right = false, title } = p
 
+  const onclick = [actions.float.toggle, img]
+
   const props = {
     class: {
       Float: true,
       right,
     },
-    onclick: [actions.float.toggle, img],
     title,
   }
 
-  return [
-    figure(props, [
-      img && Img(img),
-      caption && figcaption(caption),
-      img && float[img] && div({ class: 'focused' }, Img(img)),
-    ]),
-  ]
+  return figure(props, [
+    img && Img({ src: img, onclick }),
+    caption && figcaption(caption),
+    img && div({ class: { focused: true, show: float[img] }, onclick }, Img(img)),
+  ])
 }
 
 export const state = {
@@ -32,6 +31,15 @@ export const actions = {
         [img]: !state.float[img],
       },
     }),
+  },
+}
+
+export const globals = {
+  state: {
+    float: true,
+  },
+  actions: {
+    float: true,
   },
 }
 
@@ -56,14 +64,20 @@ export const style = vars => ({
   },
 
   '.focused': {
-    width: '100vw',
-    height: '100vh',
+    '&.show': {
+      width: '100vw',
+      height: '100vh',
+      opacity: 1,
+    },
+    height: 0,
+    width: 0,
+    opacity: 0,
     padding: '5vw 0 5vw 0',
     position: 'fixed',
     top: 0,
     left: 0,
     backgroundColor: '#000000cc',
-    transition: `background-color ${vars.fadeDuration}`,
+    transition: `background-color ${vars.fadeDuration}, opacity ${vars.fadeDuration}`,
 
     '.light &&': {
       backgroundColor: '#ffffffcc',

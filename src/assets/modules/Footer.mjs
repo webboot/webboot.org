@@ -38,7 +38,7 @@ export const View = state => [
 
 export const style = vars => ({
   backgroundColor: vars.red,
-  color: vars.greyDark,
+  color: vars.darkText,
   display: 'inline-block',
   margin: '5% 0 0',
   padding: 0,
@@ -46,15 +46,16 @@ export const style = vars => ({
 
   h2: {
     margin: 0,
+    color: vars.backgroundDark,
   },
 
   '.Menus, .Credits': {
     a: {
-      color: vars.greyLight,
+      color: vars.darkText,
       textDecoration: 'underline',
 
       '&:hover': {
-        color: vars.greyDark,
+        color: vars.grey,
       },
     },
   },

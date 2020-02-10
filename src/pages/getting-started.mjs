@@ -11,7 +11,7 @@ export const View = state =>
       ' our semi-public alpha starts on 22. 2. 2020.',
     ]),
 
-    h3(['cli', i('- release: 22. 2. 2020')]),
+    h3(['cli', i(' - release: 22. 2. 2020')]),
 
     p('first, install webboot.'),
     Pre('npm install -g webboot'),

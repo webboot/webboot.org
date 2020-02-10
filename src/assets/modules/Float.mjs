@@ -64,20 +64,21 @@ export const style = vars => ({
   },
 
   '.focused': {
-    '&.show': {
-      width: '100vw',
-      height: '100vh',
-      opacity: 1,
-    },
-    height: 0,
-    width: 0,
-    opacity: 0,
     padding: '5vw 0 5vw 0',
     position: 'fixed',
     top: 0,
     left: 0,
     backgroundColor: '#000000cc',
     transition: `background-color ${vars.fadeDuration}, opacity ${vars.fadeDuration}`,
+
+    height: 0,
+    width: 0,
+    opacity: 0,
+    '&.show': {
+      width: '100vw',
+      height: '100vh',
+      opacity: 1,
+    },
 
     '.light &&': {
       backgroundColor: '#ffffffcc',

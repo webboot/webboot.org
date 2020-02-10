@@ -1,46 +1,21 @@
 export const View = () =>
-  ul({ class: 'Team' }, [
-    li([
-      Img({ src: '/team/jascha.jpg' }),
-      div([h4(Link({ to: 'https://keybase.io/jascha/' }, 'jascha')), p('development')]),
-    ]),
-    li([
-      Img({ src: '/team/michael.jpg' }),
-      div([h4(Link({ to: 'https://keybase.io/exiledsurfer/' }, 'michael')), p('communications')]),
-    ]),
-    li([
-      Img({ src: '/team/mark.jpg' }),
-      div([h4(Link({ to: 'https://keybase.io/easye/' }, 'mark')), p('audit')]),
-    ]),
+  List([
+    {
+      img: '/team/jascha.jpg',
+      to: 'https://keybase.io/jascha/',
+      title: 'jascha',
+      text: 'development',
+    },
+    {
+      img: '/team/michael.jpg',
+      to: 'https://keybase.io/exiledsurfer/',
+      title: 'michael',
+      text: 'communications',
+    },
+    {
+      img: '/team/mark.jpg',
+      to: 'https://keybase.io/easye/',
+      title: 'mark',
+      text: 'audit',
+    },
   ])
-
-export const style = {
-  width: '100%',
-
-  li: {
-    clear: 'both',
-    display: 'inline-block',
-    margin: '0.5em 0',
-    width: '100%',
-
-    h4: {
-      lineHeight: 1,
-      padding: 0,
-    },
-  },
-
-  img: {
-    float: 'left',
-    margin: '0 1em 0 0',
-    maxWidth: '90px',
-    borderRadius: '100%',
-  },
-
-  '@media screen and (min-width: 800px)': {
-    li: {
-      clear: 'none',
-      width: '33%',
-      float: 'left',
-    },
-  },
-}

@@ -176,6 +176,6 @@ export const View = state => [
       ', given us a space to work, or otherwise helped @webboot.',
     ]),
 
-    SponsorList(state),
+    Support(state),
   ]),
 ]

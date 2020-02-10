@@ -1,7 +1,7 @@
 export const View = () =>
   ul({ class: 'Tech' }, [
     li([
-      Img({ src: '/techstack/nessus.png' }),
+      Img({ src: '/techstack/nessus.jpg' }),
       div([h4(Link({ to: 'https://nessus.at/' }, 'nessus')), p('hosting')]),
     ]),
     li([
@@ -9,7 +9,7 @@ export const View = () =>
       div([h4(Link({ to: 'https://www.torproject.org/' }, 'tor')), p('anonymity')]),
     ]),
     li([
-      Img({ src: '/techstack/gnupg.png' }),
+      Img({ src: '/techstack/gnupg.jpg' }),
       div([h4(Link({ to: 'https://gnupg.org/' }, 'gnupg')), p('cryptography')]),
     ]),
     li([
@@ -22,15 +22,15 @@ export const View = () =>
     ]),
 
     li([
-      Img({ src: '/techstack/aeternity.png' }),
+      Img({ src: '/techstack/aeternity.jpg' }),
       div([h4(Link({ to: 'https://aeternity.com/' }, 'aeternity')), p('decentralization')]),
     ]),
     li([
-      Img({ src: '/techstack/github.png' }),
+      Img({ src: '/techstack/github.jpg' }),
       div([h4(Link({ to: 'https://github.com/' }, 'github')), p('db backup & host')]),
     ]),
     li([
-      Img({ src: '/techstack/gitlab.png' }),
+      Img({ src: '/techstack/gitlab.jpg' }),
       div([h4(Link({ to: 'https://gitlab.com/' }, 'gitlab')), p('db backup & host')]),
     ]),
   ])
@@ -51,6 +51,7 @@ export const style = {
   },
 
   img: {
+    borderRadius: '.5em',
     float: 'left',
     margin: '0 1em 0 0',
     maxWidth: '90px',

@@ -18,4 +18,16 @@ export const View = () =>
       title: 'mark',
       text: 'audit',
     },
+    {
+      img: '/team/kay.jpg',
+      to: 'https://keybase.io/geleeroyale/',
+      title: 'kay',
+      text: 'devops',
+    },
+    // {
+      // img: '/team/gilo.jpg',
+      // to: 'https://keybase.io/focuswalrus/',
+      // title: 'gilo',
+      // text: 'junior dev',
+    // },
   ])

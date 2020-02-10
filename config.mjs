@@ -12,4 +12,6 @@ export default {
   CNAME: 'webboot.org',
 
   HOIST: ['LightSwitch', 'Gdpr'],
+
+  IGNORED_STATIC: ['.xcf'],
 }

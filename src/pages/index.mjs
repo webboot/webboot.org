@@ -159,6 +159,10 @@ export const View = state => [
   //   ]),
   // ]),
 
+  div({ id: 'team' }, [h2('team'), Team(state)]),
+
+  div({ id: 'tech' }, [h2('tech stack'), Tech(state)]),
+
   div({ id: 'support' }, [
     h2('support'),
 
@@ -174,6 +178,4 @@ export const View = state => [
 
     SponsorList(state),
   ]),
-
-  div({ id: 'team' }, [h2('team'), Team(state)]),
 ]

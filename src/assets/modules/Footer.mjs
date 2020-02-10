@@ -24,6 +24,8 @@ export const View = state => [
             li(Link({ to: 'https://www.npmjs.com/org/webboot' }, 'npm')),
             li(Link({ to: 'https://twitter.com/webbootorg' }, 'twitter')),
             li(Link({ to: 'https://keybase.io/webboot' }, 'keybase')),
+            li(Link({ to: 'https://github.com/webboot' }, 'github')),
+            li(Link({ to: 'https://gitlab.com/webboot' }, 'gitlab')),
           ]),
         ]),
       ]),

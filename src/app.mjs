@@ -15,7 +15,6 @@ export const state = config => ({
     },
   },
   menu: [
-    { to: '/', text: 'about' },
     { to: '/getting-started/', text: 'usage' },
     { to: '/tofu/', text: 'tofu' },
     { to: '/tosu/', text: 'tosu' },

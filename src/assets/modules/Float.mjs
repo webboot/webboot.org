@@ -1,7 +1,5 @@
-export const View = (p = {}, children) => {
+export const View = (p = {}) => {
   const { caption, float, img, right = false, title } = p
-
-  const onclick = [actions.float.toggle, img]
 
   const props = {
     class: {
@@ -11,10 +9,13 @@ export const View = (p = {}, children) => {
     title,
   }
 
+  const onclick = [actions.float.toggle, img]
+  const show = float[img]
+
   return figure(props, [
     img && Img({ src: img, onclick }),
     caption && figcaption(caption),
-    img && div({ class: { focused: true, show: float[img] }, onclick }, Img(img)),
+    img && div({ class: { focused: true, show }, onclick }, Img(img)),
   ])
 }
 

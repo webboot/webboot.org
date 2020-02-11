@@ -9,13 +9,15 @@ export const View = state => [
           Link({ to: '/privacy/', text: 'privacy notice' }),
         ]),
         div({ class: 'Child' }, [
-          h2('code'),
+          h2('sitemap'),
           ul([
-            li(Link({ to: 'https://github.com/webboot/root/' }, 'webboot')),
-            li(Link({ to: 'https://github.com/webboot/core/' }, '@webboot/core')),
-            li(Link({ to: 'https://github.com/webboot/cli/' }, '@webboot/cli')),
-            li(Link({ to: 'https://github.com/webboot/crypto/' }, '@webboot/crypto')),
-            li(Link({ to: 'https://github.com/webboot/webboot.github.io/' }, 'this page')),
+            li(Link({ to: '/' }, 'index')),
+            li(Link({ to: '/tofu/' }, 'tofu')),
+            li(Link({ to: '/tosu/' }, 'tosu')),
+            li(Link({ to: '/getting-started/' }, 'getting-started')),
+            li(Link({ to: '/privacy/' }, 'privacy')),
+            li(Link({ to: '/canary/' }, 'warrant canary')),
+            li(Link({ to: '/support/' }, 'support')),
           ]),
         ]),
         div({ class: 'Child' }, [

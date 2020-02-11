@@ -4,7 +4,7 @@ export const View = () =>
       img: '/team/jascha.jpg',
       to: 'https://keybase.io/jascha/',
       title: 'jascha',
-      text: 'development',
+      text: 'architect',
     },
     {
       img: '/team/michael.jpg',
@@ -22,12 +22,12 @@ export const View = () =>
       img: '/team/kay.jpg',
       to: 'https://keybase.io/geleeroyale/',
       title: 'kay',
-      text: 'devops',
+      text: 'ops',
     },
-    // {
-      // img: '/team/gilo.jpg',
-      // to: 'https://keybase.io/focuswalrus/',
-      // title: 'gilo',
-      // text: 'junior dev',
-    // },
+    {
+      img: '/team/gilo.jpg',
+      to: 'https://keybase.io/focuswalrus/',
+      title: 'gilo',
+      text: 'jr. dev',
+    },
   ])

@@ -33,6 +33,18 @@ z
 ]
 
 export const style = vars => ({
+  backgroundColor: vars.text.dark,
+  borderRadius: '100%',
+  display: 'inline-block',
+  float: 'left',
+  height: '2.4em',
+  padding: '.3em .3em 0 .5em',
+  transition: `background-color ${vars.fadeDuration}`,
+
+  '.light &&': {
+    backgroundColor: vars.text.light,
+  },
+
   svg: {
     height: '1.7em',
     width: '1.7em',

@@ -1,11 +1,11 @@
 {
-  "name": "webboot.github.io",
+  "name": "webboot.org",
   "version": "0.23.5",
   "private": true,
   "author": "Wizards & Witches",
   "description": "@webboot org github page.",
   "license": "AGPL-3.0",
-  "homepage": "https://webboot.github.io",
+  "homepage": "https://webboot.org",
   "engines": {
     "node": ">=13.5.0"
   },

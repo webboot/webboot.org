@@ -4,7 +4,7 @@ export const View = items =>
     items.map(i => [li([Img({ src: i.img }), div([h4(Link({ to: i.to }, i.title)), p(i.text)])])]),
   )
 
-export const style = vars => ({
+export const style = {
   width: '100%',
 
   li: {
@@ -26,16 +26,16 @@ export const style = vars => ({
     maxWidth: '90px',
   },
 
-  '@media screen and (min-width: 500px)': {
+  '@media screen and (min-width: 600px)': {
     li: {
       clear: 'none',
       width: '49%',
     },
   },
 
-  '@media screen and (min-width: 800px)': {
+  '@media screen and (min-width: 850px)': {
     li: {
       width: '33%',
     },
   },
-})
+}

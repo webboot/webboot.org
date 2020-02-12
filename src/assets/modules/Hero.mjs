@@ -15,7 +15,7 @@ export const View = state =>
   ])
 
 export const style = vars => ({
-  backgroundColor: vars.darkText,
+  backgroundColor: vars.text.dark,
   margin: '5vh auto',
   position: 'relative',
   maxWidth: 'inherit',
@@ -27,16 +27,16 @@ export const style = vars => ({
     margin: '3em 0 0',
 
     a: {
-      color: vars.red,
+      color: vars.primary.neutral,
 
       '&:hover': {
-        color: vars.redDark,
+        color: vars.primary.dark,
       },
     },
   },
 
   p: {
-    color: vars.grey,
+    color: vars.neutral,
     fontSize: '1.1em',
     textAlign: 'center',
   },

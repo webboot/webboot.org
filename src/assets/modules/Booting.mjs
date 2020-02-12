@@ -22,7 +22,7 @@ export const style = vars => ({
   },
 
   h1: {
-    color: vars.grey,
+    color: vars.neutral,
     fontSize: '2em',
     padding: '0',
     position: 'absolute',
@@ -31,7 +31,7 @@ export const style = vars => ({
     top: 0,
 
     span: {
-      color: vars.red,
+      color: vars.primary.neutral,
     },
   },
 })

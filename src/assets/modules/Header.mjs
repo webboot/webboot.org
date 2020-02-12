@@ -17,18 +17,17 @@ export const View = (props = {}) => {
 
 export const style = vars => ({
   '.Boot': {
-      backgroundColor: vars.text.dark,
-  borderRadius: '100%',
-  display: 'inline-block',
-  float: 'left',
-  height: '2.4em',
-  padding: '.3em .3em 0 .5em',
-  transition: `background-color ${vars.fadeDuration}`,
+    backgroundColor: vars.text.dark,
+    borderRadius: '100%',
+    display: 'inline-block',
+    float: 'left',
+    height: '2.4em',
+    padding: '.3em .3em 0 .5em',
+    transition: `background-color ${vars.fadeDuration}`,
 
-  '.light &&': {
-    backgroundColor: vars.text.light,
-  },
-
+    '.light &&': {
+      backgroundColor: vars.text.light,
+    },
   },
   '.branding': {
     float: 'left',

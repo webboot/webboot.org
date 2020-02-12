@@ -10,7 +10,7 @@ export const View = () =>
       img: '/team/michael.jpg',
       to: 'https://keybase.io/exiledsurfer/',
       title: 'michael',
-      text: 'communications',
+      text: 'comms',
     },
     {
       img: '/team/mark.jpg',
@@ -28,6 +28,6 @@ export const View = () =>
       img: '/team/gilo.jpg',
       to: 'https://keybase.io/focuswalrus/',
       title: 'gilo',
-      text: 'jr. dev',
+      text: 'dev',
     },
   ])

@@ -7,6 +7,18 @@ export const View = () =>
       text: 'hosting',
     },
     {
+      img: '/techstack/magic.jpg',
+      to: 'https://magic.github.io/',
+      title: 'magic',
+      text: 'static page generator',
+    },
+    {
+      img: '/techstack/grundstein.jpg',
+      to: 'https://grundstein.github.io/',
+      title: 'grundstein',
+      text: 'ci/cd',
+    },
+    {
       img: '/techstack/tor.jpg',
       to: 'https://www.torproject.org/',
       title: 'tor',

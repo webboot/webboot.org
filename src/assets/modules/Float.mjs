@@ -1,5 +1,5 @@
 export const View = (p = {}) => {
-  const { caption, float, img, right = false, title } = p
+  const { caption, float, img, right = false, height, width, title } = p
 
   const props = {
     class: {
@@ -13,7 +13,7 @@ export const View = (p = {}) => {
   const show = float[img]
 
   return figure(props, [
-    img && Img({ src: img, onclick }),
+    img && Img({ src: img, height, width, onclick }),
     caption && figcaption(caption),
     img && div({ class: { focused: true, show }, onclick }, Img(img)),
   ])

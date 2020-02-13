@@ -42,6 +42,8 @@ export const View = state => [
     Float({
       ...state,
       img: '/comics/brainlesstales-tofu.jpg',
+      height: '346',
+      width: '389',
       caption: Link({ to: 'https://www.brainlesstales.com/', text: 'comic by brainlesstales' }),
     }),
 
@@ -70,6 +72,8 @@ export const View = state => [
       ...state,
       right: true,
       img: '/comics/sebiwi-trust.jpg',
+      height: '246',
+      width: '389',
       caption: Link({ to: 'https://sebiwi.github.io/', text: 'comic by sebiwi' }),
     }),
 

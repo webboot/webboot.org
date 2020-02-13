@@ -8,6 +8,19 @@ export const View = () =>
 
     h2("Do's"),
 
+    h3('encourage anonymity'),
+    p('most of our services will include measures that prevent us from knowing your ip address.'),
+    p([
+      'since the threat vector in those cases are we,',
+      ' @webboot, it usually is sufficient to relay all requests through anonymizer networks.',
+    ]),
+
+    p([
+      'for a chance at actual anonymity,',
+      ' usage of tools like tor and i2c is encouraged,',
+      ' and our networks will not block requests from those networks.',
+    ]),
+
     h3('debug logging'),
 
     p([
@@ -22,9 +35,11 @@ export const View = () =>
 
     ol([
       li('signing git username'),
-      li(
-        'signing public gpg key + metadata (name and email attached to that key. we never verify or process this information.)',
-      ),
+      li([
+        'signing public gpg key + metadata',
+        ' (metadata is name and email attached to that key.',
+        ' we neither verify, extract, nor process this information, and we never will.',
+      ]),
       li('git provider (gitlab, github, ...)'),
       li('domain'),
       li('git organization/account'),
@@ -53,7 +68,7 @@ export const View = () =>
 
     p([
       'we will never, under no circumstances,',
-      ' share, and/or sell information about our users to ',
+      ' share information about our users with ',
       b('any'),
       ' third parties.',
     ]),
@@ -61,7 +76,7 @@ export const View = () =>
     h3('canary:'),
     p([
       'as long as ',
-      Link({ to: '/canary/', text: 'our canary link works' }),
+      Link({ to: '/canary/', text: 'this canary link works' }),
       ' we have not shared any data about our users with anyone.',
     ]),
 
@@ -70,7 +85,7 @@ export const View = () =>
 
     ol([
       li('your git config user.email (never uploaded)'),
-      li('your public ssh key associated with that email.'),
+      li('your public gpg key associated with that email.'),
       li('your gpg keys published on github or gitlab.'),
     ]),
 

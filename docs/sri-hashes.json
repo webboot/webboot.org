@@ -1,16 +1,16 @@
 {
-  "css": "sha384-EsNKWJe9/hAXAeXHhABZNSKTln3aWP3+h11kcLiYBCSQMKH/MFpjv9i3mLel7Hi/",
-  "js": "sha384-C1GpfBttd9Aex5R7XwMyNSNH1ZUiNjb18IP/tx2OOU80dSyvu9f8Sfs2/gU72udY",
+  "css": "sha384-8s4TDtgBIQAxYPslHjghZruIgfMxDlDtygqghhpjG4tQFslPkPszJr1CGguBx5/n",
+  "js": "sha384-Ov9CiM0xg4s1wtm8sTXngOKYUl24LqMYVuPge1AMQRpdWJ7r9O1s0GJp3qcbHrhU",
   "pages": {
-    "/": "sha384-gsggwUUQzwGIwSHGqk5Xj/jQC9Pnf6r7XJ3G0tAYHJkKDL3dpQctXxslC/0awTu1",
-    "/404/": "sha384-arhWcd0FBJ04GQUWdGP3WHIiLwsmi9lcfg3+M5Ldopzw+exfPbYpBZqO1zN0INND",
-    "/canary/": "sha384-Gw6ebXK3hEFZkWjPWQlg+4wdoXogVehHA2spdsCncNhyU9jyxdWlC/OlKNkkMNcz",
-    "/docs/api/": "sha384-Kdx4yGFJ7DjjT1EOw0WxYIZbkaJNRNfZGmmUy0RbHWVVa102TXygcbWubeIt8QdR",
-    "/getting-started/": "sha384-BuCIA8RRDC9Tn7aLiid7RnSfMWzIiyzEv83f215rot2D6kFbWocXRNy7aPr4TlSK",
-    "/privacy/": "sha384-v1Rfk89en3RaOtj1QNMyWpBpnJ/fnsJjKv/4xFSsLNySm/PqcpIFpj+OHZrXfQOH",
-    "/support/": "sha384-88g48w/8b39tU0qT8fUU7XrZYO5cdrfy1vyiJPtQUNKaZSJd7q6EgeJzWE9f+BwG",
-    "/tofu/": "sha384-iisL1Uz2WzqJ4pKm6Z/I5s9B5cIl9omMPIZSVyrcaU+BrgWKUQl/wPESjewU+hW1",
-    "/tosu/": "sha384-yUmNUSCR80dcDq1r+h1RvHybCp+eW79ek65F0/qjdRKI2IoMJmoh2MjxZyns2xgh"
+    "/": "sha384-vNZ2PjHcOUJYQEydGqP7tafLMFwZYpmhODYggnCe9kUHTTCkB+T3VF3BRMW6aBUX",
+    "/404/": "sha384-MIje8Gl0mqA2XxBSfVzVKIQ11X5SvYZdgt7aLfGO6LlQT4/At6dXjvLb903UNAI7",
+    "/canary/": "sha384-TqKMCfB4+/FnYg1AjrKmZiJNvBM6dWrhJcHMumcI1Iy4rNZHV1JNUqXmyT8hj5pA",
+    "/docs/api/": "sha384-5sFqjQ3j3ppQ7YKgXzK772Ce8mdLWaRbjEcpfyKJDspt7TfjlcFdx87iagOfPZ+M",
+    "/getting-started/": "sha384-SfI2jKaEw4rndTYSZk1Da7jkDnDSfvMP2/nf9mVBCJw9duptE7WtQCRYTKQ9g8pC",
+    "/privacy/": "sha384-oxCzxsQ3ePKHXVOL73OjPUum5x5MVLNH9RU6++5m+v7ibWGwdyYZN5+WADetFmZJ",
+    "/support/": "sha384-dyglFPN7kzzS4oewm69BWNCdNEv3VxBKxWhK55XByBe7jO0CqHIYu+8aovOk4/6b",
+    "/tofu/": "sha384-KIB/BG4IT1Stm/MjjwaF7b+dF6o7lQn//ckJCIK0mnb60cueF1dWv8vv3SpGmUW0",
+    "/tosu/": "sha384-p0cEz2Wjzwb28xqW9lIoSn5sFgNHjx4lkvRbSrpObLVBe0o9a+A9VOTMX+aRx29/"
   },
   "static": {
     "/CNAME": "sha384-9GiOSkS91NIfwb56BWflvL6c0z5JvYw+tESzUB3zgoVAPc3MZNwR6JRiHnbZsGDg",

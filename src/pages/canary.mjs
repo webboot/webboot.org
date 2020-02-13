@@ -15,24 +15,23 @@ export const View = state =>
 
     h4('we have never shared any data about our users with anyone.'),
 
+    p([' if this page disappears, it means that the rule above has been broken by force.']),
 
-      p([' if this page disappears, it means that the rule above has been broken by force.']),
+    h3('data that might get compromised:'),
 
-      h3('data that might get compromised:'),
+    h4('debug logs'),
+    p([
+      'some debugging data will be logged, for a maximum of 7 days.',
+      ' this data will never include any ip addresses, or other identifying data.',
+    ]),
 
-      h4('debug logs'),
-      p([
-        'some debugging data will be logged, for a maximum of 7 days.',
-        ' this data will never include any ip addresses, or other identifying data.',
-      ]),
+    h4('pgp keystore metadata'),
+    p([
+      'all email addresses and names of the gpg keys imported into the @webboot gpg keystore.',
+      ' this is built into gpg.',
+    ]),
 
-      h4('pgp keystore metadata'),
-      p([
-        'all email addresses and names of the gpg keys imported into the @webboot gpg keystore.',
-        ' this is built into gpg.',
-      ]),
-
-      p("that's it, since we do not save any other data about you, there is nothing else to steal."),
+    p("that's it, since we do not save any other data about you, there is nothing else to steal."),
   ])
 
 export const style = vars => ({

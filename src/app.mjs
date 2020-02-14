@@ -5,7 +5,7 @@ export const state = config => ({
     name: '@webboot',
     url: `https://${config.URL}`,
     about: 'solving the tofu problem, one boot at a time.',
-    image: `https://${config.URL}${config.WEB_ROOT}webboot-preview.png`,
+    image: `https://${config.URL}${config.WEB_ROOT}webboot-preview.jpg`,
     author: {
       '@type': 'person',
       name: 'Jascha Ehrenreich',

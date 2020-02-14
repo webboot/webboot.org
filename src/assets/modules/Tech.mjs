@@ -47,7 +47,19 @@ export const View = () =>
       img: '/techstack/aeternity.jpg',
       to: 'https://aeternity.com/',
       title: 'aeternity',
-      text: 'decentralization',
+      text: 'oracles, anchoring',
+    },
+    {
+      img: '/techstack/bitcoin.jpg',
+      to: 'https://bitcoin.org/',
+      title: 'bitcoin',
+      text: 'anchoring',
+    },
+    {
+      img: '/techstack/ethereum.jpg',
+      to: 'https://ethereum.org/',
+      title: 'ethereum',
+      text: 'anchoring',
     },
     {
       img: '/techstack/github.jpg',

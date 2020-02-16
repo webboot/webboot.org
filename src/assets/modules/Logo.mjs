@@ -1,5 +1,5 @@
-export const View = () => [
-  div({ class: 'Boot' }, [
+export const View = state =>
+  Link({ to: state.root, class: 'Logo' }, [
     svg({ viewBox: '0 0 640 500', height: '1em', width: '1em' }, [
       path({
         class: 'upper',
@@ -29,12 +29,16 @@ z
         fill: '#5a5a5a',
       }),
     ]),
-  ]),
-]
+  ])
 
 export const style = {
   svg: {
-    height: '1.7em',
-    width: '1.7em',
+    backgroundColor: 'transparent',
+    borderRadius: 0,
+    padding: '0.3em',
+
+    '.light &&': {
+      backgroundColor: 'transparent',
+    },
   },
 }

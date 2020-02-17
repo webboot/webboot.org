@@ -69,7 +69,7 @@ export const style = vars => ({
   },
 
   '.focused': {
-    padding: '5vw 0 5vw 0',
+    padding: '5vw 1em',
     position: 'fixed',
     top: 0,
     left: 0,

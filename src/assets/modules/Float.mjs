@@ -50,6 +50,10 @@ export const style = vars => ({
   maxWidth: '45%',
   transition: 'max-width 300ms',
 
+  img: {
+    height: 'auto',
+  },
+
   '&.right': {
     float: 'right',
     margin: '0 0 1.5em 1.5em',

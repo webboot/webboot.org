@@ -1,16 +1,16 @@
 {
-  "css": "sha384-uFYq4gHqgmYo4z84rnizC74jbXkHQVAkfv0qjh04vbD/6DiJtehEUMnAUs5fkKCM",
+  "css": "sha384-TOUk/0ME/yNKrFCZFak1VujWq58mCJMRIIdYKhYWI5rWIMvSO2kXtoI6hO8UpF22",
   "js": "sha384-qCTCLO8BAvl3/L09suaIbWQUuhtAhmXnqyyIr1FFGwQu6W3usN3oomYKGNs5JGqw",
   "pages": {
-    "/": "sha384-soAhev/7C8/SFgQByNAHmIjfOYuzppQyscLoQOHawJJDgoj1jMt0j61riz2xU2uv",
-    "/404/": "sha384-xyN6RKcWHiU3B6/PXQpqDA006vPcaeG6EBg1UPdWTCGPCBjnW+vWSI5PX0wCiAdr",
-    "/canary/": "sha384-1lHo56uioKLlf+050Ukd7lAZm0WAcSgB9zEVtujkCx2DXN9XtfvyaDqaSrwoaU5c",
-    "/docs/api/": "sha384-qhI0sd0N2DVrBKSc1Afdc9MM47kLfwbpnV4rvoJEIBrf9L6WXfrBzoRCs7m5pVhB",
-    "/getting-started/": "sha384-Y6hJahDxBVcdwXfd/9K919QYN0RgDUMoWV1uf2izVUDK9Vr6+sW/NRXpDuqG35zh",
-    "/privacy/": "sha384-mVFYov1iY9LpJmtD4UVLKM6dgRGB7PbBnv0s4/mkm+1Lead4gy2UsiJKscQ91BM1",
-    "/support/": "sha384-gEY8RKncMkj2+8+jk5ZgK6H/OgRUtSWiKNG7wVlXzal+C/FVf4qIgMgGr7JzpU3C",
-    "/tofu/": "sha384-AkC3iu4N1/zj0tqyIl19QEVdLxWil7DiM5R+t40EmXBzCOs8/5tMCWEkMZC0xf1X",
-    "/tosu/": "sha384-H1QfVpvD03McknE6I4fbYA7arCPhZUwStc6rbxFyCC1rZ2+84dvqrEViyjIr6FJE"
+    "/": "sha384-knxYGwjJt5uYjk3sMv2DF26ofGTChSQAZYyQpkUrOUlSerEBYA71rjYCATgxvc/b",
+    "/404/": "sha384-5aJi7i2nexxv2y4YuMa2YuuUG+RhJm2Y/SELvhFiegt9609rGFJZ3J5oNTCA3ge/",
+    "/canary/": "sha384-T9xY1sHf1ONuAnXvkGPeROnk24QZZz/mv1v3heYLezdFe+BUm6WB0vCgS/mB1yro",
+    "/docs/api/": "sha384-c6npWsGU6ijLsN2cqyi9B9hsdsFnzATxSJsKAPJeb1BFgnn2LClrwAWrMvrfMzfi",
+    "/getting-started/": "sha384-HohUkbIGWywH7yvLZ2Qz343FZo5UNLDUJ00Zkf1c2r3W7V2xlkLCWTC378ilP/zz",
+    "/privacy/": "sha384-dJWpk78fL/ofrmZG9FQ7f1Sp2NofEhkcdONDYq6FiYoeILgzDfc+YgVA6hXPSTT6",
+    "/support/": "sha384-JktNlIFErYtJlS+iVyvYsdwsto6dkxrMlEcYKKctnKjIz+kOBF3BQzkluerqUJ37",
+    "/tofu/": "sha384-duOMSDOAZNNX1lff2VbKd+jHgHDQVJeMlmr2GKnMmLlbCt8KKc5W24U/7Aobi9QI",
+    "/tosu/": "sha384-9/VNCs9QuhHzjTnV8PCC8+kIFZMYZRCeerfDtbPoSC51fwS2jqBx+4TewHkkxK7L"
   },
   "static": {
     "/CNAME": "sha384-9GiOSkS91NIfwb56BWflvL6c0z5JvYw+tESzUB3zgoVAPc3MZNwR6JRiHnbZsGDg",

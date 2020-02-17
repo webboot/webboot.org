@@ -8,8 +8,10 @@ export const View = state =>
 
     Float({
       ...state,
-      img: '/comics/sebiwi-trust.jpg',
       caption: Link({ to: 'https://sebiwi.github.io/', text: 'comic by sebiwi' }),
+      height: '246',
+      img: '/comics/sebiwi-trust.jpg',
+      width: '389',
     }),
 
     p('tosu. we made that up. but being written somewhere on the internet makes it a thing now.'),

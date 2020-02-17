@@ -1,6 +1,6 @@
 export const View = state =>
   Link({ to: state.root, class: 'Logo' }, [
-    svg({ viewBox: '0 0 640 500', height: '1em', width: '1em' }, [
+    svg({ viewBox: '0 0 640 500' }, [
       path({
         class: 'upper',
         d: `

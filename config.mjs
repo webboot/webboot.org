@@ -1,7 +1,7 @@
 export default {
   ROOT: 'src',
   PUBLIC: 'docs',
-  THEME: 'project',
+  THEME: ['project', 'webboot'],
 
   WEB_ROOT: '/',
   URL: 'webboot.org',

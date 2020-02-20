@@ -20,13 +20,14 @@ export const View = state =>
 
     p([
       'how can we trust a homepage which manages',
-      'our money, our stocks, our insurance plan, our routers, our friend list, our private messages,',
-      'not to send us malicious code, intended or unintended.',
+      ' our money, our stocks, our insurance plan,',
+      ' our routers, our friend list, our private messages,',
+      ' not to send us malicious code, intended or unintended.',
     ]),
 
     p([
       'homepages and webapps are used to administrate a lot of our public and private lifes,',
-      ' yet most people (and many developers) do not realize,',
+      ' yet most people, and many developers, do not realize,',
       ' how broken and dangerous the delivery method of those applications is.',
     ]),
 
@@ -65,7 +66,7 @@ export const View = state =>
 
     p([
       'this means that auditing (especially since it has to be done on every page load)',
-      'does not seem to be a viable solution here.',
+      ' does not seem to be a viable solution here.',
     ]),
 
     h3('formal verification'),
@@ -75,7 +76,7 @@ export const View = state =>
     ]),
 
     p([
-      'but',
+      'but ',
       Link({
         text: 'testing',
         to: 'https://en.wikipedia.org/wiki/List_of_software_bugs',
@@ -139,8 +140,8 @@ export const View = state =>
 
     p([
       'using that caching mechanism in a smart way,',
-      'an upgrade and deprecation mechanism can be implemented,',
-      'prompting the user to update the homepage scripts to the new version when needed.',
+      ' an upgrade and deprecation mechanism can be implemented,',
+      ' prompting the user to update the homepage scripts to the new version when needed.',
     ]),
 
     p([
@@ -153,7 +154,7 @@ export const View = state =>
       'the ',
       Link({ text: 'noscript', to: 'https://github.com/hackademix/noscript' }),
       ' browser extension actually uses sri hashes to block javascript,',
-      'it just adds a hash to the &lt;script identity="bogus"&gt;',
+      ' it just adds a hash to the &lt;script identity="bogus"&gt;',
       ' tag that will not match any script.',
     ]),
 

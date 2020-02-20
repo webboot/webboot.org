@@ -15,7 +15,7 @@ export const View = state =>
 
     h4('we have never shared any data about our users with anyone.'),
 
-    p([' if this page disappears, it means that the rule above has been broken by force.']),
+    p(b('if this page disappears, it means that the rule above has been broken by force.')),
 
     h3('data that might get compromised:'),
 

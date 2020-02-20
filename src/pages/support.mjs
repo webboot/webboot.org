@@ -20,10 +20,8 @@ export const View = () => [
 
   div({ id: 'suggestions' }, [
     h2('share ideas'),
-    p([
-      'have an idea/suggestion how to make webboot better?',
-      Link({ to: 'https://github.com/webboot/root/issues', text: 'file an issue' }),
-    ]),
+    p('have an idea/suggestion how to make webboot better?'),
+    Link({ to: 'https://github.com/webboot/root/issues', text: 'file an issue' }),
   ]),
 
   // div({ id: 'contribute' }, [

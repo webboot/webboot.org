@@ -1,4 +1,4 @@
-export const state = config => ({
+export const state = {
   title: '@webboot',
   description: 'solving the tofu problem, one boot at a time.',
 
@@ -6,9 +6,9 @@ export const state = config => ({
 
   seo: {
     name: '@webboot',
-    url: `https://${config.URL}`,
+    url: `https://webboot.org/`,
     about: 'solving the tofu problem, one boot at a time.',
-    image: `https://${config.URL}${config.WEB_ROOT}webboot-preview.jpg`,
+    image: `https://webboot.org/webboot-preview.jpg`,
     author: {
       '@type': 'person',
       name: 'Jascha Ehrenreich',
@@ -32,38 +32,8 @@ export const state = config => ({
 
     menu: [
       { to: '/#about', text: 'about' },
-      { to: '/getting-started/', text: 'getting started' },
+      { to: '/getting-started/', text: 'usage' },
       { to: '/#support', text: 'support' },
     ],
   },
-
-  footer: {
-    one: {
-      title: '@webboot',
-      before: ['trust on every step.', 'created by the @webboot dao.'],
-      menu: [{ to: '/privacy/', text: 'privacy notice' }],
-    },
-    two: {
-      title: 'sitemap',
-      menu: [
-        { to: '/', text: 'index' },
-        { to: '/tofu/', text: 'tofu' },
-        { to: '/tosu/', text: 'tosu' },
-        { to: '/getting-started/', text: 'getting-started' },
-        { to: '/privacy/', text: 'privacy' },
-        { to: '/canary/', text: 'warrant canary' },
-        { to: '/support/', text: 'support' },
-      ],
-    },
-    three: {
-      title: 'social links',
-      menu: [
-        { to: 'https://www.npmjs.com/org/webboot', text: 'npm' },
-        { to: 'https://twitter.com/webbootorg', text: 'twitter' },
-        { to: 'https://keybase.io/webboot', text: 'keybase' },
-        { to: 'https://github.com/webboot', text: 'github' },
-        { to: 'https://gitlab.com/webboot', text: 'gitlab' },
-      ],
-    },
-  },
-})
+}

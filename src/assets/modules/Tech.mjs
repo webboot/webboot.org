@@ -16,13 +16,13 @@ export const View = () =>
       img: '/techstack/codechain.jpg',
       to: 'https://github.com/frankbraun/codechain/',
       title: 'codechain',
-      text: 'review proofs',
+      text: 'database',
     },
     {
       img: '/techstack/aeternity.jpg',
       to: 'https://aeternity.com/',
       title: 'aeternity',
-      text: 'oracles, anchoring',
+      text: 'oracles',
     },
     {
       img: '/techstack/bitcoin.jpg',
@@ -52,7 +52,7 @@ export const View = () =>
       img: '/techstack/magic.jpg',
       to: 'https://magic.github.io/',
       title: 'magic',
-      text: 'static page generator',
+      text: 'jam gen',
     },
     {
       img: '/techstack/grundstein.jpg',
@@ -60,22 +60,22 @@ export const View = () =>
       title: 'grundstein',
       text: 'ci/cd',
     },
-    {
-      img: '/techstack/github.jpg',
-      to: 'https://github.com/',
-      title: 'github',
-      text: 'db backup & host',
-    },
-    {
-      img: '/techstack/gitlab.jpg',
-      to: 'https://gitlab.com/',
-      title: 'gitlab',
-      text: 'db backup & host',
-    },
-    {
-      img: '/techstack/keybase.jpg',
-      to: 'https://keybase.io/',
-      title: 'keybase',
-      text: 'communication',
-    },
+    // {
+      // img: '/techstack/github.jpg',
+      // to: 'https://github.com/',
+      // title: 'github',
+      // text: 'db backup & host',
+    // },
+    // {
+      // img: '/techstack/gitlab.jpg',
+      // to: 'https://gitlab.com/',
+      // title: 'gitlab',
+      // text: 'db backup & host',
+    // },
+    // {
+      // img: '/techstack/keybase.jpg',
+      // to: 'https://keybase.io/',
+      // title: 'keybase',
+      // text: 'communication',
+    // },
   ])

@@ -1,5 +1,6 @@
 export const View = (p = {}) => {
   const { url, text, img, right = false, height, width, title, state } = p
+
   const { float } = state
 
   const props = {
@@ -11,7 +12,7 @@ export const View = (p = {}) => {
   }
 
   const onclick = [actions.float.toggle, img]
-  const show = float[img]
+  const show = float && float[img]
 
   return figure(props, [
     img && Img({ src: img, height, width, onclick }),

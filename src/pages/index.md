@@ -97,7 +97,7 @@ giving developers and publishers additional insight into actual app performance.
 
 ## team
 
-<Team state></Team>
+<Team></Team>
 
 </div>
 
@@ -105,7 +105,7 @@ giving developers and publishers additional insight into actual app performance.
 
 ## tech stack
 
-<Tech state></Tech>
+<Tech></Tech>
 
 </div>
 

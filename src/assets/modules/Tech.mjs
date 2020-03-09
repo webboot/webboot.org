@@ -56,7 +56,7 @@ export const View = () =>
     },
     {
       img: '/techstack/grundstein.jpg',
-      to: 'https://grundstein.github.io/',
+      to: 'https://grundstein.it/',
       title: 'grundstein',
       text: 'ci/cd',
     },

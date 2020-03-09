@@ -8,14 +8,14 @@
 
 # tosu - trust on second (and subsequent) use
 
-<Float
-  state=''
+<LightBox
+  state
   url="https://sebiwi.github.io/"
   text="comic by sebiwi"
   height="246"
   img="/comics/sebiwi-trust.jpg"
   width="389">
-</Float>
+</LightBox>
 
 tosu. we made that up. but being written somewhere on the internet makes it a thing now.
 there also might be a wikipedia page in the near future,

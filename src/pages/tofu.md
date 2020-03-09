@@ -8,14 +8,14 @@
 
 # tofu - trust on first use
 
-<Float
-  state="state"
+<LightBox
+  state
   text="comic by brainlesstales"
   height="346"
   img="/comics/brainlesstales-tofu.jpg"
   width="389"
   url="https://www.brainlesstales.com">
-</Float>
+</LightBox>
 
 how can we trust a homepage before we even load it?
 

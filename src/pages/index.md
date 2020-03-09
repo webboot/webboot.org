@@ -35,14 +35,14 @@ just seems that nobody thought about it before.
 
 ## tofu - trust on first use
 
-<Float
-  state=''
+<LightBox
+  state
   img="/comics/brainlesstales-tofu.jpg"
   height="346"
   width="389"
   url="https://www.brainlesstales.com/"
   text="comic by brainlesstales">
-</Float>
+</LightBox>
 
 how can we trust a homepage before we even load it?'),
 
@@ -64,15 +64,15 @@ we wake up deep at night, in cold sweat, and think about becoming a gardener.
 
 ## tosu - trust on second (and subsequent) use'),
 
-<Float
-  state=''
+<LightBox
+  state
   right="true"
   img="/comics/sebiwi-trust.jpg"
   height="246"
   width="389"
   url="https://sebiwi.github.io/"
   text="comic by sebiwi">
-</Float>
+</LightBox>
 
 once we know how to load homepages safely the first time, we encounter a new problem.
 

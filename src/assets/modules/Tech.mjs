@@ -1,11 +1,11 @@
 export const View = () =>
   List([
-    {
-      img: '/techstack/tor.jpg',
-      to: 'https://www.torproject.org/',
-      title: 'tor',
-      text: 'anonymity',
-    },
+    // {
+      // img: '/techstack/tor.jpg',
+      // to: 'https://www.torproject.org/',
+      // title: 'tor',
+      // text: 'anonymity',
+    // },
     {
       img: '/techstack/gnupg.jpg',
       to: 'https://gnupg.org/',
@@ -36,12 +36,12 @@ export const View = () =>
       title: 'ethereum',
       text: 'anchoring',
     },
-    {
-      img: '/techstack/nessus.jpg',
-      to: 'https://nessus.at/',
-      title: 'nessus',
-      text: 'hosting',
-    },
+    // {
+      // img: '/techstack/nessus.jpg',
+      // to: 'https://nessus.at/',
+      // title: 'nessus',
+      // text: 'hosting',
+    // },
     {
       img: '/techstack/cryptohippie.jpg',
       to: 'https://cryptohippie.com/',
@@ -61,21 +61,21 @@ export const View = () =>
       text: 'ci/cd',
     },
     // {
-      // img: '/techstack/github.jpg',
-      // to: 'https://github.com/',
-      // title: 'github',
-      // text: 'db backup & host',
+    // img: '/techstack/github.jpg',
+    // to: 'https://github.com/',
+    // title: 'github',
+    // text: 'db backup & host',
     // },
     // {
-      // img: '/techstack/gitlab.jpg',
-      // to: 'https://gitlab.com/',
-      // title: 'gitlab',
-      // text: 'db backup & host',
+    // img: '/techstack/gitlab.jpg',
+    // to: 'https://gitlab.com/',
+    // title: 'gitlab',
+    // text: 'db backup & host',
     // },
-    // {
-      // img: '/techstack/keybase.jpg',
-      // to: 'https://keybase.io/',
-      // title: 'keybase',
-      // text: 'communication',
-    // },
+    {
+      img: '/techstack/keybase.jpg',
+      to: 'https://keybase.io/',
+      title: 'keybase',
+      text: 'proofs',
+    },
   ])

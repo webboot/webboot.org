@@ -115,7 +115,7 @@ giving developers and publishers additional insight into actual app performance.
 
 the following organizations and individuals have
 [contributed code](/support/#contribute),
-[shared ideas](/support/#suggestions),
+[shared ideas](/support/#share-ideas),
 [donated](/support/#donate),
 given us a space to work, or otherwise helped @webboot.
 

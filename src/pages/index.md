@@ -6,7 +6,7 @@
 
 <Hero state></Hero>
 
-<div id='about'>
+<div id="about">
 
 ## early bird <3
 
@@ -31,7 +31,7 @@ just seems that nobody thought about it before.
 
 </div>
 
-<div id='tofu'>
+<div id="tofu">
 
 ## tofu - trust on first use
 
@@ -60,9 +60,9 @@ we wake up deep at night, in cold sweat, and think about becoming a gardener.
 
 </div>
 
-<div id='tosu'>
+<div id="tosu">
 
-## tosu - trust on second (and subsequent) use'),
+## tosu - trust on second (and subsequent) use
 
 <LightBox
   state
@@ -93,7 +93,7 @@ giving developers and publishers additional insight into actual app performance.
 
 </div>
 
-<div id='team'>
+<div id="team">
 
 ## team
 
@@ -101,7 +101,7 @@ giving developers and publishers additional insight into actual app performance.
 
 </div>
 
-<div id='tech'>
+<div id="tech">
 
 ## tech stack
 
@@ -109,7 +109,7 @@ giving developers and publishers additional insight into actual app performance.
 
 </div>
 
-<div id='support'>
+<div id="support">
 
 ## support
 

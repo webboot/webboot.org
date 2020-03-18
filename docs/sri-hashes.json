@@ -1,16 +1,16 @@
 {
   "css": "sha384-CHDRQhTTff/a+nI9byTDOgAkrjOI1aUSAu2vKB9PaNHD87ftwieCdW4BJPLTQEVk",
-  "js": "sha384-ACvgkm4Re9QTJH/Lbcro2hQ5TE3MzaYKxxKfgKmd+dmDt2ZiUX9/laORRDWkQRc8",
+  "js": "sha384-SERU/vGUxOzWGkU8ZtKctwD1hK/w9hZc7A1Imnm66wHbO9S5Q6J+bez2NV0UCaAb",
   "pages": {
-    "/": "sha384-vcYV9QJVIzrwclhGJk8TEEpDq+4gOi4lSnMX+f+kQNcHVocB02qTX4zIuVhJb2tJ",
-    "/404/": "sha384-ncu57NjNpyMuhDeh7Dc0sImkKoABcrfCvH14IS16Hm6dniAdX3K3wO2a1UEFbwl/",
-    "/canary/": "sha384-O4Sd66RvgMDMSiE9/SPpqbjpzMWkKbzgA7ocisdPZQmUjfTQyfroIEDX268Sbl2e",
-    "/docs/api/": "sha384-jzU2htCF9HXDcygX/hATICvc7ajxs1r5PLoPZbUH9g3uScBlbi8lce6wdGIPo5SN",
-    "/getting-started/": "sha384-fDpNxVNALa2eqDwI0e/VPD/uAdReGzhyHd10TsuUQGN9W1m8i/iqIeD6I5mMOSKU",
-    "/privacy/": "sha384-7qEIg6jYHzggcyhJC9IH2zrss+ApTlmEmtEzhjkdJrxBlCz8H1wthVlsR3dNse2/",
-    "/support/": "sha384-8y6m978DfQQ5nSnOXOk/BDrqKkTv7fYdXdcXZGivQ8eBmVBWMLjBqhKYxoznahWI",
-    "/tofu/": "sha384-Cqu4y4DHXpHkGrl6RzdRsX+4R2bsTqVw+LsXEQNDUFcG1fiLwuWEupxWzRUUEElr",
-    "/tosu/": "sha384-pXkF/jpImMiUkvugaJD3j5s+XrQWye9ajFCXD+BRi46tivZ9q9ADnCJ7W52KcLTn"
+    "/": "sha384-Xksl4QtpCG4wTGs+5/JYkx/Jb52b1jJlvjrLJ+IRxE/4B6v1XHKuHOOAXy6FG6Xk",
+    "/404/": "sha384-vi/b/KRurh0WXN+6cJ+9mGlVGYmY3B5RmI6t6R7olRFzlEjNLzMBA1phRIzn6y26",
+    "/canary/": "sha384-Upax6oQ6y+0IKBu79Fh5fjbfThH3ZkLK2bJVcgqTqDwfw61G31BlAzdSYfcbGwlB",
+    "/docs/api/": "sha384-CDY5FyXXyOMHnXOwDBj3rdzqBsKnTuBLSNNwxFJ7Ho1nSHdFC8cXQMlQXLuolfUX",
+    "/getting-started/": "sha384-hd47mxWMEA1Du3BdEdAhBpfUmRmp72pHsZJa285v0YcsFaqHuq2OcD7ZgIGw7xfy",
+    "/privacy/": "sha384-OkkH8oLVTbqcwXeVNGsuk4m7wjWI8BHWsWGrYh5kuYw8IAuPzukM0tRC11CCTbSy",
+    "/support/": "sha384-QNsBCTnVxmbPBcRzA/RQTapyIFBR566BEJFz2CQN0PaO3wutuOy5nxlsGDCLm/KY",
+    "/tofu/": "sha384-zUGojfHxKx1qmFPg5+2HWjDDOvvVmgjxCC/Y+lqcrD+uqmsBf8CRbfmcyClurb6K",
+    "/tosu/": "sha384-POxODO3JDTmK1/eJgYLu4uKPfiT4sD74wx4cjarWO3AsTXk+Kp0mIKU4hWJ8grPL"
   },
   "static": {
     "/keybase.txt": "sha384-gJEt/r1LFOdFbzlRkk2M446yxg35C6lgLCEb2sKEyK2mY9gvMlE/akEGJ4zmwhcI",

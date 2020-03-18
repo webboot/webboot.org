@@ -44,9 +44,9 @@ just seems that nobody thought about it before.
   text="comic by brainlesstales">
 </LightBox>
 
-how can we trust a homepage before we even load it?'),
+how can we trust a homepage before we even load it?
 
-this is a central problem of the web that has not been addressed. until now.'),
+this is a central problem of the web that has not been addressed. until now.
 
 homepages and webapps are used to administrate a lot of our public and private lifes,
 yet most people, and many developers, do not realize,

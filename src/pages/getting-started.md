@@ -14,11 +14,11 @@ our semi-public alpha will start soon.
 ### cli *- coming soon*
 
 first, install webboot.
-<Pre>npm install -g webboot</Pre>
+`npm install -g webboot`
 
 then, go to the directory with your public page and run
 
-<Pre>webboot</Pre>
+`webboot`
 
 webboot will guide you through the process.
 
@@ -63,7 +63,7 @@ those hashes will be published and mirrored to three locations:
 all apps will query all of those three sources for hashes everytime they check,
 making it very hard for any attacker to take over the system.
 
-### smart contracts *- release: summer 2020*
+### smart contracts *- coming soon*
 
 we are exploring smart contract based solution to decentralize both
 the hash verification as well as the storage of the database.
@@ -71,22 +71,22 @@ this will add an additional layer providing
 data persistance, integrity guarantees and network stability.
 
 once the smart contracts are in place, the
-Link({ to: 'https://en.wikipedia.org/wiki/Bus_factor text: 'hit by a bus problem' }),
+<Link to="https://en.wikipedia.org/wiki/Bus_factor" text="hit by a bus problem"></Link>
 will not be part of the equation anymore,
 making our team irrelevant to the wellbeing of the network.
 
-### gui *mid/late 2020.*
+### gui *coming soon*
 
 first, install the cli:
-<Pre>npm install -g webboot</Pre>
+`npm install -g webboot`
 
 then, run the gui:
 
-<Pre>webboot ui</Pre>
+`webboot ui`
 
 go to the url the cli tells you (probably http://localhost:5235) and start adding pages.
 
-<h3 id='packages'>packages</h3>
+### packages
 
 * #### [@webboot/core](https://github.com/webboot/core)
 

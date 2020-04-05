@@ -19,6 +19,12 @@ export const View = () =>
       text: 'audit',
     },
     {
+      img: '/team/litto.jpg',
+      to: 'https://keybase.io/litto/',
+      title: 'litto',
+      text: 'gfx',
+    },
+    {
       img: '/team/kay.jpg',
       to: 'https://keybase.io/geleeroyale/',
       title: 'kay',

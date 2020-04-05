@@ -29,7 +29,7 @@
     "@magic-modules/light-switch": "0.0.5",
     "@magic-modules/pre": "0.0.7",
     "@magic-themes/project": "0.0.13",
-    "@magic/core": "0.0.63",
+    "@magic/core": "0.0.64",
     "@webboot/magic-theme": "0.0.4"
   },
   "devDependencies": {

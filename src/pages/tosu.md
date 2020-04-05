@@ -44,8 +44,11 @@ the https connection to the server might have been
 [man in the middled](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
 in the country/company/coffeshop network we just connected to.
 
-simply said: we MUST NOT trust the server to send us valid code,
-on the contrary, we SHOULD assume to get malicious payloads.
+simply said: we [MUST NOT](https://tools.ietf.org/html/rfc2119#section-2)
+trust the server to send us valid code,
+quite the opposite actually,
+we [SHOULD](https://tools.ietf.org/html/rfc2119#section-3)
+assume to get malicious payloads.
 
 ### broken code
 

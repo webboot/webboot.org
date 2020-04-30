@@ -21,7 +21,9 @@
     "test": "t --exclude docs example config.js",
     "calls": "calls",
     "connect": "magic connect",
-    "publish": "magic publish"
+    "publish": "magic publish",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@magic-modules/gdpr": "0.0.15",
@@ -30,7 +32,8 @@
     "@magic-modules/pre": "0.0.7",
     "@magic-themes/project": "0.0.13",
     "@magic/core": "0.0.70",
-    "@webboot/magic-theme": "0.0.4"
+    "@webboot/magic-theme": "0.0.4",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@magic/format": "0.0.10",
@@ -49,5 +52,6 @@
       "name": "jascha ehrenreich",
       "github": "jaeh"
     }
-  ]
+  ],
+  "snyk": true
 }

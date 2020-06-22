@@ -15,6 +15,14 @@ feel free to poke around,
 but as long as this notice is here,
 most documentation on this page will not be accurate (yet).
 
+# gitcoin grant
+
+we submitted webboot to the 6th founding rund on gitcoin.co
+
+[webboot gitcoin grant](https://gitcoin.co/grants/924/webboot)
+
+*every dai is appreciated.*
+
 # webboot?
 
 @webboot aims to make

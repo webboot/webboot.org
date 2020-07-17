@@ -15,27 +15,34 @@ feel free to poke around,
 but as long as this notice is here,
 most documentation on this page will not be accurate (yet).
 
-# gitcoin grant
-
-we submitted webboot to the 6th founding rund on gitcoin.co
-
-[webboot gitcoin grant](https://gitcoin.co/grants/924/webboot)
-
-*every dai is appreciated.*
-
 # webboot?
 
 @webboot aims to make
 [tofu - trust on first use](https://en.wikipedia.org/wiki/Trust_on_first_use)
 a bit less scary.
 
+this is achieved by providing a *third party source of truth* in form of the webboot infrastructure.
+
+## validators
+
 we (and you?) run a network of validator nodes,
 providing a source of integrity to homepages and webapps.
+
+## browser extensions
+
+browser extensions both verify pages and cache their js for later.
+
+this makes webboot a package manager for the web,
+where users are in control of updates.
+
+## mission
 
 we think that this is a missing protocol,
 and that something like webboot is as integral
 for a free and secure world wide web as dns is,
 just seems that nobody thought about it before.
+
+webboot is an open-source, free (as in freedom) software, non-profit project.
 
 </div>
 

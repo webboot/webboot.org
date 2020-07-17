@@ -7,10 +7,10 @@ export const View = () =>
       text: 'architect',
     },
     {
-      img: '/team/michael.jpg',
-      to: 'https://keybase.io/exiledsurfer/',
-      title: 'michael',
-      text: 'comms',
+      img: '/team/litto.jpg',
+      to: 'https://keybase.io/litto/',
+      title: 'litto',
+      text: 'gfx',
     },
     {
       img: '/team/mark.jpg',
@@ -19,10 +19,10 @@ export const View = () =>
       text: 'audit',
     },
     {
-      img: '/team/litto.jpg',
-      to: 'https://keybase.io/litto/',
-      title: 'litto',
-      text: 'gfx',
+      img: '/team/michael.jpg',
+      to: 'https://keybase.io/exiledsurfer/',
+      title: 'michael',
+      text: 'comms',
     },
     {
       img: '/team/kay.jpg',

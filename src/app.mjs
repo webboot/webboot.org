@@ -28,7 +28,7 @@ export const state = {
     title: ['@web', 'boot'],
     description: 'trust on every step',
 
-    content: ['automagically verify the integrity of homepages,', 'before you load them.'],
+    content: ['automagically verify the integrity of homepages,', 'before you execute them.'],
 
     menu: [
       { to: '/#about', text: 'about' },

@@ -92,22 +92,22 @@ go to the url the cli tells you (probably http://localhost:5235) and start addin
 
   the core library functionality of @webboot. used both in clients and on the server.
 
-  [docs](https://webboot.github.io/core)
+  [docs](https://docs.webboot.org/core)
 
 * #### [@webboot/cli](https://github.com/webboot/cli)
 
   command line interface exposing the @webboot functionality to bash
-  [docs](https://webboot.github.io/cli)
+  [docs](https://docs.webboot.org/cli)
 
 * #### [@webboot/crypto](https://github.com/webboot/crypto)
 
   all cryptographic functionality of @webboot,
   split into a separate repository to make testing and auditing easier.
 
-  [docs](https://webboot.github.io/crypto)
+  [docs](https://docs.webboot.org/crypto)
 
 * #### [@webboot/keys](https://github.com/webboot/keys)
 
   the @webboot pgp public key and fingerprint.
 
-  [keys](https://webboot.github.io/keys)
+  [keys](https://docs.webboot.org/keys)
